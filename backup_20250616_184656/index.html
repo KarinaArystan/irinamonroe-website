@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ирина Монро - психолог и гипнотерапевт. Я не лечу и не даю советы. Я создаю пространство, где вы можете почувствовать себя настоящим.">
+    <meta name="keywords" content="психолог, онлайн терапия, гипнотерапия, эмоциональная поддержка, Ирина Монро">
+    <title>Ирина Монро | Психолог и гипнотерапевт</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile-fixes.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="../index.html" class="logo-link"><div class="logo">IRINA MONROE</div></a>
+            
+            <!-- Mobile Header Controls -->
+            <div class="mobile-controls">
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            
+            <!-- Navigation -->
+            <ul class="nav-links">
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#services">С чем работаю</a></li>
+                <li class="has-dropdown">
+                    <a href="#" class="dropdown-toggle">Ресурсы
+                        <svg class="dropdown-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none">
+                            <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="../resources/hypnotherapy/">Гипнотерапия</a>
+                        <a href="../resources/psychology/">Психология и травма</a>
+                        <a href="../resources/questions/">Вопросы и ответы</a>
+                        <a href="../therapy-sessions/">Онлайн консультации</a>
+                    </div>
+                </li>
+                <li><a href="../blog/">Блог</a></li>
+                <li class="header-search">
+                    <form action="../search" method="GET">
+                        <input type="text" name="q" placeholder="Поиск..." autocomplete="off">
+                        <button type="button" onclick="toggleSearch(this)">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </button>
+                    </form>
+                </li>
+                <li><a href="../therapy-sessions/" class="nav-cta">Связаться</a></li>
+                <!-- Social Icons for Mobile -->
+                <li class="social-icons-mobile">
+                    <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.525 3.488" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="https://t.me/YOUR_TELEGRAM" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@IrinaMonroe" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/monroe__irina/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.405a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="images/hero-left-image.png" alt="Ирина Монро - Psychologist" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=800&h=1000&fit=crop';">
+            </div>
+            <div class="hero-text">
+                <h1>Индивидуальные консультации</h1>
+                
+                <p>Есть темы, о которых не принято говорить. Чувства, которые трудно назвать. Есть места внутри, которые долго оставались без внимания. Не потому что они неважны, а потому что к ним сложно приблизиться без опоры.</p>
+                
+                <div class="hero-tags">
+                    <span class="tag">Психология, гипнотерапия</span>
+                </div>
+                
+                <div class="hero-founding">
+                    <span class="founding-year">Год основания 2008</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О себе Section -->
+    <section id="about" class="about welcome">
+        <div class="welcome-content">
+            <div class="welcome-greeting">Рада приветствовать вас</div>
+            <h2>Ирина Монро — психолог и гипнотерапевт</h2>
+            
+            <p>Психология для меня — не просто деятельность, а пространство, в котором я полностью присутствую, в интересе к другому человеку, в стремлении видеть не роль, а подлинное, и в способности быть рядом, когда это подлинное становится видимым.</p>
+            
+            <div class="welcome-image">
+                <img src="images/irina-monroe-outdoor.jpg" alt="Ирина Монро - Psychologist" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=600&h=600&fit=crop';">
+            </div>
+            
+            <div class="welcome-bio">
+                <p>Я в профессии уже более 19 лет. Этот путь начинался с классического подхода, но с годами менялся, вместе со мной. Я и сейчас продолжаю быть в профессиональном развитии, регулярно прохожу супервизию.</p>
+                
+                <p>Для меня это не формальность, а способ сохранять честность перед собой и перед теми, кто приходит.</p>
+                
+                <p>Сейчас я живу во Флориде. До этого много лет жила в Лос-Анджелесе. Работаю онлайн, с теми, кому важно быть услышанными.</p>
+                
+                <p>Мне важно не исправлять человека, а быть рядом так, чтобы он сам мог почувствовать себя настоящим.</p>
+            </div>
+            
+            <div class="welcome-achievements">
+                <div class="achievement-box">
+                    <div class="achievement-number">19+</div>
+                    <div class="achievement-text">лет опыта</div>
+                </div>
+                <div class="achievement-box">
+                    <div class="achievement-number">1000+</div>
+                    <div class="achievement-text">консультаций</div>
+                </div>
+                <div class="achievement-box">
+                    <div class="achievement-number">2008</div>
+                    <div class="achievement-text">год основания практики</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="process-content">
+            <div class="process-header">
+                <div class="section-label">Как я работаю</div>
+                <h2>Как я работаю</h2>
+                <p>Терапия — это не метод и не модель. Это встреча двух людей, в которой важнее не теория, а честность, внимание и готовность оставаться в неопределенности.</p>
+            </div>
+            
+            <!-- Image Divider -->
+            <div class="process-divider">
+                <img src="images/process-divider.png" alt="Decorative divider" class="divider-image">
+            </div>
+            
+            <!-- Framed Quote -->
+            <div class="process-quote">
+                <p>Мне важна живая связь, а не концепция. Потому что только в живом контакте что-то действительно меняется.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Услуги Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">С чем я работаю</div>
+                <h2>Темы, с которыми ко мне приходят</h2>
+            </div>
+            
+            <div class="services-list-container">
+                <ul class="services-list">
+                    <li>Взросление, перемены, утрата прежней опоры</li>
+                    <li>Отношения с родителями, детьми, собой</li>
+                    <li>Застревание, одиночество, страх смерти</li>
+                    <li>Переходы, кризисы, поиск смысла</li>
+                    <li>Внутренние поиски, которые не укладываются в слова</li>
+                </ul>
+            </div>
+            
+            <div class="services-note">
+                <p>Перед обращением, пожалуйста, ознакомьтесь с текстами на сайте — чтобы понять, близок ли вам мой способ видеть и думать.</p>
+                <p>Также будет полезно ознакомиться с <a href="../therapeutic-contract/">условиями терапевтического контракта</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-form-container">
+                <h2>Запись на консультацию</h2>
+                <p class="contact-price">Первый шаг к внутренней гармонии</p>
+                
+                <div style="text-align: center; margin-bottom: 40px;">
+                    <p style="margin-bottom: 20px;">Узнайте больше о процессе или свяжитесь со мной:</p>
+                    <a href="../therapy-sessions/" class="cta-button" style="display: inline-block; margin-bottom: 20px;">Подробнее об онлайн-сессиях</a>
+                    <p style="font-size: 14px; opacity: 0.7;">или заполните форму ниже</p>
+                </div>
+                
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                            <label for="name">Имя</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="age" name="age" placeholder="Возраст" required>
+                            <label for="age">Возраст</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="location" name="location" placeholder="Город / Страна" required>
+                            <label for="location">Город / Страна</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="time" name="time" placeholder="Удобное время" required>
+                            <label for="time">Удобное время</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <input type="email" id="email" name="email" placeholder="Электронный адрес" required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <textarea id="message" name="message" rows="6" placeholder="Расскажите, с чем вы хотели бы обратиться ко мне" required></textarea>
+                            <label for="message">Расскажите, с чем вы хотели бы обратиться ко мне</label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="form-submit">Отправить заявку</button>
+                </form>
+                
+                <div style="margin-top: 40px; text-align: center; opacity: 0.8;">
+                    <p style="font-size: 14px;">Также доступны мессенджеры:</p>
+                    <div style="margin-top: 15px; display: flex; gap: 20px; justify-content: center;">
+                        <a href="https://wa.me/13109937727" style="color: var(--accent-terra); text-decoration: none;">WhatsApp</a>
+                        <span style="color: var(--accent-brown);">•</span>
+                        <a href="mailto:info@irinamonroe.com" style="color: var(--accent-terra); text-decoration: none;">Email</a>
+                        <span style="color: var(--accent-brown);">•</span>
+                        <a href="https://t.me/YOUR_TELEGRAM" style="color: var(--accent-terra); text-decoration: none;">Telegram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Обо мне</h4>
+                    <p>Психолог и гипнотерапевт с 19+ летним опытом. Помогаю людям найти внутреннюю опору и жить более осознанно.</p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.525 3.488" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="https://t.me/YOUR_TELEGRAM" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@IrinaMonroe" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/monroe__irina/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.405a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="../about/">Обо мне</a></li>
+                        <li><a href="../services/">Услуги</a></li>
+                        <li><a href="../resources/">Ресурсы</a></li>
+                        <li><a href="../blog/">Блог</a></li>
+                        <li><a href="../contact/">Контакт</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Ресурсы</h4>
+                    <ul>
+                        <li><a href="../resources/hypnotherapy/">Гипнотерапия</a></li>
+                        <li><a href="../resources/psychology/">Психология и травма</a></li>
+                        <li><a href="../resources/questions/">Вопросы и ответы</a></li>
+                        <li><a href="../services/">Консультации</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Свяжитесь со мной</h4>
+                    <p>Готовы начать путь к внутренней гармонии? Я здесь, чтобы поддержать вас.</p>
+                    <a href="../therapy-sessions/" class="footer-cta">Записаться на консультацию</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="../privacy-policy/">Политика конфиденциальности</a>
+                    <a href="../therapeutic-contract/">Терапевтический контракт</a>
+                    <a href="../online-sessions/">Онлайн сессии</a>
+                </div>
+                <p class="copyright">© 2024 IRINA MONROE. ВСЕ ПРАВА ЗАЩИЩЕНЫ.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+    
+    <!-- Inline initialization for homepage mobile menu -->
+    <script>
+        // Ensure mobile menu works on homepage
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            
+            if (mobileMenuToggle && !mobileMenuToggle.hasAttribute('data-inline-init')) {
+                mobileMenuToggle.setAttribute('data-inline-init', 'true');
+                
+                mobileMenuToggle.addEventListener('click', function() {
+                    navLinks.classList.toggle('active');
+                    this.classList.toggle('active');
+                    document.body.classList.toggle('menu-open');
+                });
+            }
+        });
+    </script>
+</body>
+</html>

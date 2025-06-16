@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Терапевтический контракт - условия работы с психологом Ириной Монро. Формат работы, оплата, конфиденциальность.">
+    <meta name="keywords" content="терапевтический контракт, условия терапии, психотерапия, консультирование">
+    <title>Терапевтический контракт | Ирина Монро</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../mobile-fixes.css">
+    <style>
+        /* Page-specific styles */
+        .contract-hero {
+            padding: 120px 0 80px;
+            background: url('../images/title-bg.jpg') center center/cover;
+            background-attachment: fixed;
+            text-align: center;
+            margin-top: 124px;
+            position: relative;
+        }
+        
+        .contract-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(237, 234, 228, 0.4);
+            z-index: 1;
+        }
+        
+        .contract-hero .container {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .contract-hero h1 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 48px;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            font-weight: 300;
+            line-height: 1.2;
+        }
+        
+        .contract-content {
+            padding: 80px 0;
+            background: var(--white);
+        }
+        
+        .content-section {
+            max-width: 900px;
+            margin: 0 auto 60px;
+            padding: 0 40px;
+        }
+        
+        .content-section h2 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 36px;
+            color: var(--text-dark);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+        
+        .content-section h3 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 28px;
+            color: var(--text-dark);
+            margin: 40px 0 20px;
+            font-weight: 400;
+        }
+        
+        .content-section p {
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+        }
+        
+        .intro-box {
+            background: var(--bg-section);
+            padding: 40px;
+            border-radius: 8px;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+        
+        .intro-box h2 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 32px;
+            color: var(--accent-terra);
+            margin-bottom: 20px;
+        }
+        
+        .service-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            margin: 40px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .service-cards {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .service-card {
+            background: rgba(170, 113, 78, 0.08);
+            padding: 40px;
+            border-radius: 8px;
+        }
+        
+        .service-card h3 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 28px;
+            color: var(--accent-terra);
+            margin-bottom: 20px;
+        }
+        
+        .contract-list {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+            counter-reset: contract-counter;
+        }
+        
+        .contract-list li {
+            padding: 20px 0 20px 50px;
+            position: relative;
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--text-dark);
+            border-bottom: 1px solid rgba(87, 76, 64, 0.1);
+            counter-increment: contract-counter;
+        }
+        
+        .contract-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .contract-list li::before {
+            content: counter(contract-counter);
+            position: absolute;
+            left: 0;
+            top: 20px;
+            width: 30px;
+            height: 30px;
+            background: var(--primary-color);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        
+        .highlight-section {
+            background: var(--bg-section);
+            padding: 60px 40px;
+            margin: 60px -40px;
+            text-align: center;
+        }
+        
+        .highlight-section h2 {
+            color: var(--accent-terra);
+            margin-bottom: 30px;
+        }
+        
+        .important-note {
+            background: rgba(147, 136, 74, 0.1);
+            padding: 30px;
+            border-left: 4px solid var(--primary-color);
+            margin: 30px 0;
+            font-style: italic;
+        }
+        
+        
+        @media (max-width: 968px) {
+            .contract-hero {
+                padding: 80px 0 40px;
+            }
+            
+            .contract-hero h1 {
+                font-size: 36px;
+            }
+            
+            .content-section h2 {
+                font-size: 28px;
+            }
+            
+            .content-section h3 {
+                font-size: 24px;
+            }
+            
+            .content-section {
+                padding: 0 20px;
+            }
+            
+            .highlight-section {
+                margin: 40px -20px;
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div class="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="contract-hero">
+        <div class="container">
+            <h1>Терапевтический контракт</h1>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="contract-content">
+        <div class="container">
+            <!-- Introduction -->
+            <div class="content-section">
+                <div class="intro-box">
+                    <h2>Для чего он нужен?</h2>
+                    <p>Терапевтический контракт позволяет иметь договоренность между психологом и клиентом. В нем оговаривается формат работы, цель клиента, регулярность и длительность встреч, их стоимость, и за что несет ответственность психотерапевт, а за что — клиент.</p>
+                </div>
+                
+                <h2>Какая цель терапевтического контракта?</h2>
+                <p>Создать открытые, доверительные и понятные отношения в союзе психолог-клиент.</p>
+                
+                <h2>Что дает такая договоренность?</h2>
+                <p>Возможность организационно и психологически проделать ту внутреннюю работу, в которой нуждается клиент.</p>
+            </div>
+
+            <!-- Services -->
+            <div class="content-section">
+                <h2>Я предлагаю консультирование и психотерапию</h2>
+                
+                <div class="service-cards">
+                    <div class="service-card">
+                        <h3>Консультирование</h3>
+                        <p>Это может быть разовое консультирование. Также это может быть от 1 до 5 встреч, где вы получаете возможность четко определить проблему и выбрать наилучшее ее решение.</p>
+                        <p>Такой формат работы подойдет, если вы в целом довольны качеством своей жизни, и у вас возникла ситуация, в которой вам нужна помощь, чтобы выбрать оптимальное для себя поведение.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <h3>Психотерапия</h3>
+                        <p>Это более глубинная работа с личностью, и для нее требуется не менее 10-15 встреч, с частотой раз в неделю.</p>
+                        <p>Такой формат работы подойдет для тех, кто в течение длительного времени недоволен какой-то стороной своей жизни или постоянно сталкиваетесь с однотипными проблемами.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contract Terms -->
+            <div class="content-section">
+                <h2>Условия терапевтического контракта</h2>
+                
+                <ol class="contract-list">
+                    <li>Мы встречаемся с частотой один раз в неделю. Длительность встречи — 60 минут. В отдельных случаях есть возможность более частых встреч, но не чаще двух раз в неделю с интервалом между встречами минимум 3-4 дня. Время оговаривается на первой сессии, и в дальнейшем график становится фиксированным. За вами закрепляется удобное для вас время. В этом случае вам не потребуется дополнительно согласовывать время сессии, его легче помнить. Время сессий можно изменить, если в этом есть необходимость у вас и возможность у меня.</li>
+                    
+                    <li>Если мы с вами работаем в формате длительной терапии, лучше не прерывать нашу работу в течение 10-15 недель с момента начала психотерапии.</li>
+                    
+                    <li>В случае запланированных отъездов/командировок/отпуска, вы должны предупредить меня об этом не позже, чем за две недели. В свою очередь, я обязуюсь известить вас о своих запланированных отъездах.</li>
+                </ol>
+            </div>
+
+            <!-- Payment Section -->
+            <div class="content-section">
+                <div class="highlight-section">
+                    <h2>Оплата</h2>
+                    
+                    <ol class="contract-list" style="text-align: left; max-width: 700px; margin: 30px auto;">
+                        <li>Оплата скайп-сессии производится до начала каждой сессии за 24 часа.</li>
+                        <li>Раз в год цены на мои услуги могут меняться. Об этом я предупреждаю за месяц до повышения цен.</li>
+                    </ol>
+                    
+                    <div class="important-note" style="max-width: 700px; margin: 30px auto;">
+                        <p>*Оплата первой сессии осуществляется за 24 часа до назначенного времени скайп-сессии, пожалуйста сообщайте мне об оплате в письме.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Collaboration -->
+            <div class="content-section">
+                <h2>Сотрудничество в работе</h2>
+                
+                <ol class="contract-list">
+                    <li>Я не являюсь приверженцем какого-то одного метода в своей работе и использую Эклектический подход. Что это значит? Это значит, что в работе я не следую какой-то одной системе, а использую элементы разных методов, которые считаю наиболее подходящими с учетом личности данного клиента и его конкретных симптомов. На сессиях вам не нужно делать чего-то специальное и особенное. Вы не обязаны рассказывать все подробности своей жизни, на мой взгляд, в этом нет необходимости. По личным и профессиональным убеждениям я противник любых насильственных методов, поэтому вы всегда можете отказаться, если вам не нравятся те или иные методы. Есть одно условие без которого, я считаю, не стоит начинать терапию - это ваша готовность к диалогу.</li>
+                    
+                    <li>Если вы готовы к психотерапии, лучше работать с одним специалистом. Я считаю, что работа с двумя терапевтами параллельно не эффективна и является выражением сопротивления, которое больше приносит вреда клиенту, чем пользы. Я не готова нести ответственность за любые терапевтические эффекты, которые были применены в терапии не мной. Исключением может быть ситуация сочетания индивидуальной терапии со мной и лечением у врача-психиатра.</li>
+                    
+                    <li>Иногда в процессе психотерапии могут возникать сильные чувства. А чувства часто способны побуждать нас к принятию решений и совершению поступков. В такие моменты очень важно понимать, что решения, принятые на основе сильных чувств, могут быть преждевременными и не всегда верными. Поэтому когда вы будете принимать решения в процессе вашей психотерапии, лучше воздерживаться от спонтанного принятия решения.</li>
+                    
+                    <li>Если во время наших сессий у вас возникнут вопросы, сомнения, переживания относительно нашего сотрудничества, я приглашаю вас обсудить это со мной. Это позволит избежать непонимания и снижения эффективности нашей работы. Если вы хотите завершить психотерапевтическую работу, вам нужно обсудить это со мной минимум за одну встречу до ее завершения.</li>
+                    
+                    <li>В конце психотерапии вы приходите на завершающую сессию. Мы подводим итоги работы, завершаем незавершенные темы, обмениваемся впечатлениями о пройденном пути. Завершающая сессия проводится в том числе и перед тем, как взять паузу в психотерапевтической работе.</li>
+                    
+                    <li>В случае болезни или форс-мажорных обстоятельств, ближайшая запланированная сессия может быть отменена и перенесена на следующее запланированное время. В этом случае пропущенная сессия вами не оплачивается.</li>
+                    
+                    <li>В иных случаях отмена осуществляется не позднее, чем за 24 часа до времени встречи. В этом случае пропущенная сессия вами не оплачивается.</li>
+                    
+                    <li>В случае, если клиент:<br>
+                    - отменил назначенную сессию менее, чем за 24 часа;<br>
+                    - не пришел на назначенную сессию;<br>
+                    - опоздал и пришел к завершению назначенного времени;<br>
+                    он оплачивает полную стоимость каждой пропущенной сессии.<br><br>
+                    Это правило обеспечивает вашу ответственность за присутствие в нашей работе, а также финансовую безопасность и устойчивость моего рабочего расписания.<br><br>
+                    Я понимаю, что в жизни бывает всякое, жизненные обстоятельства могут меняться и поэтому прошу предупреждать об отмене консультаций не позже 24 часов накануне дня нашей встречи.<br><br>
+                    Если вы не появляетесь на сессии, я вас теряю, как своего клиента, если вы мне не перезваниваете и не объясняете причины почему так произошло.</li>
+                    
+                    <li>Если я по каким-то причинам не присутствую на нашей встрече в назначенный день и час, то стоимость вашей следующей сессии будет на 50% меньше.</li>
+                    
+                    <li>В случае, если вы опаздываете к назначенному времени вашей сессии, важно понимать, что вы укорачиваете лично отведенное вам время. К сожалению, я не смогу компенсировать время вашего опоздания потому, что за вами могут быть другие клиенты, которым придется ждать. Я считаю, что соблюдение взаимоуважения есть одна из составляющих успеха в нашей совместной работе. Поэтому приходите, пожалуйста, вовремя.</li>
+                </ol>
+            </div>
+
+            <!-- Confidentiality -->
+            <div class="content-section">
+                <div class="highlight-section">
+                    <h2>Конфиденциальность</h2>
+                    <p style="max-width: 700px; margin: 0 auto; font-size: 18px;">Я гарантирую полную конфиденциальность нашей работы. Никакие подробности вашей жизни не будут переданы третьим лицам в устной или письменной форме, в том числе членам семьи или родственникам, без явного вашего согласия.</p>
+                    <p style="font-size: 14px; opacity: 0.8; margin-top: 20px;">*За исключением тех случаев, когда данное условие противоречит закону.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-form-container">
+                <h2>Готовы начать?</h2>
+                <p class="contact-price">Ознакомившись с условиями терапевтического контракта, вы можете записаться на первую консультацию</p>
+                
+                <div style="text-align: center; margin-bottom: 40px;">
+                    <p style="margin-bottom: 20px;">Выберите удобный способ связи:</p>
+                    <a href="mailto:info@irinamonroe.com" class="cta-button" style="display: inline-block; margin-bottom: 20px;">Написать на email</a>
+                    <p style="font-size: 14px; opacity: 0.7;">или заполните форму ниже</p>
+                </div>
+                
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                            <label for="name">Имя</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="age" name="age" placeholder="Возраст" required>
+                            <label for="age">Возраст</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="location" name="location" placeholder="Город / Страна" required>
+                            <label for="location">Город / Страна</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="time" name="time" placeholder="Удобное время" required>
+                            <label for="time">Удобное время</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <input type="email" id="email" name="email" placeholder="Электронный адрес" required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <textarea id="message" name="message" rows="6" placeholder="Расскажите, с чем вы хотели бы обратиться ко мне" required></textarea>
+                            <label for="message">Расскажите, с чем вы хотели бы обратиться ко мне</label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="form-submit">Отправить заявку</button>
+                </form>
+                
+                <div style="margin-top: 40px; text-align: center; opacity: 0.8;">
+                    <p style="font-size: 14px;">Также доступны мессенджеры:</p>
+                    <div style="margin-top: 15px; display: flex; gap: 20px; justify-content: center;">
+                        <a href="https://wa.me/13109937727" style="color: var(--accent-terra); text-decoration: none;">WhatsApp</a>
+                        <span style="color: var(--accent-brown);">•</span>
+                        <a href="https://t.me/YOUR_TELEGRAM" style="color: var(--accent-terra); text-decoration: none;">Telegram</a>
+                        <span style="color: var(--accent-brown);">•</span>
+                        <a href="https://zoom.us" style="color: var(--accent-terra); text-decoration: none;">Zoom</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div class="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+</body>
+</html>

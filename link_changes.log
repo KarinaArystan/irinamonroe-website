@@ -1,0 +1,2018 @@
+Link changes made on 2025-06-16 18:46:56
+Method: relative paths
+Total files changed: 239
+
+
+File: index.html
+Changes made: 23
+  href="/" → href="index.html"
+  href="/resources/hypnotherapy/" → href="resources/hypnotherapy/"
+  href="/resources/psychology/" → href="resources/psychology/"
+  href="/resources/questions/" → href="resources/questions/"
+  href="/therapy-sessions/" → href="therapy-sessions/"
+  ... and 18 more changes
+
+File: backup_20250616_184656/index.html
+Changes made: 23
+  href="/" → href="../index.html"
+  href="/resources/hypnotherapy/" → href="../resources/hypnotherapy/"
+  href="/resources/psychology/" → href="../resources/psychology/"
+  href="/resources/questions/" → href="../resources/questions/"
+  href="/therapy-sessions/" → href="../therapy-sessions/"
+  ... and 18 more changes
+
+File: privacy-policy/index.html
+Changes made: 4
+  href="/" → href="../index.html"
+  href="/#about" → href="../#about"
+  href="/#services" → href="../#services"
+  href="/blog/" → href="../blog/"
+
+File: resources/index.html
+Changes made: 4
+  href="/resources/hypnotherapy/" → href="../resources/hypnotherapy/"
+  href="/resources/psychology/" → href="../resources/psychology/"
+  href="/resources/questions/" → href="../resources/questions/"
+  href="/services/" → href="../services/"
+
+File: resources/hypnotherapy/index.html
+Changes made: 13
+  href="/" → href="../../index.html"
+  href="/resources/" → href="../../resources/"
+  href="/resources/hypnotherapy/what-is-hypnosis/" → href="../../resources/hypnotherapy/what-is-hypnosis/"
+  href="/resources/hypnotherapy/how-it-works/" → href="../../resources/hypnotherapy/how-it-works/"
+  href="/resources/hypnotherapy/who-is-hypnotherapist/" → href="../../resources/hypnotherapy/who-is-hypnotherapist/"
+  ... and 8 more changes
+
+File: resources/hypnotherapy/hypnotherapy-template.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/resources/" → href="../../resources/"
+  href="/resources/hypnotherapy/" → href="../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../resources/hypnotherapy/"
+  href="/#contact" → href="../../#contact"
+
+File: resources/hypnotherapy/gipnoterapia-kak-eto-rabotaet/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/delau-podarki-kak-pod-gipnozom/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/kto-takoi-gipnoterapevt/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/seksualnoepnasilie-detskom-vozraste/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/ctho-chuvstvuetsya-vo-vremya-gipnoza/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/gipnos/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/copy-of-что-такое-сознание/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/vnushaemost-opredelenie/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/iskageniya-vremeni-v-gipnoze/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/chto-takoe-soznanie/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/chto-takoe-gipervnushaemost/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/raznitsa-megdu-meditatsiei-i-gipnozom/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/meхanizm-bei-begi/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/stadii-gipnoxa/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/hypnotherapy/samogipnoz/index.html
+Changes made: 5
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/resources/hypnotherapy/" → href="../../../resources/hypnotherapy/"
+  href="/#contact" → href="../../../#contact"
+
+File: resources/psychology/index.html
+Changes made: 10
+  href="/" → href="../../index.html"
+  href="/resources/" → href="../../resources/"
+  href="/resources/psychology/vnytrenniy-rebenok/" → href="../../resources/psychology/vnytrenniy-rebenok/"
+  href="/resources/psychology/travma-iskagaet-vospriyatie/" → href="../../resources/psychology/travma-iskagaet-vospriyatie/"
+  href="/resources/psychology/travma-moget-emotsionalno-zamorozit/" → href="../../resources/psychology/travma-moget-emotsionalno-zamorozit/"
+  ... and 5 more changes
+
+File: resources/psychology/psychology-template.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/resources/" → href="../../resources/"
+  href="/resources/psychology/" → href="../../resources/psychology/"
+  href="/resources/psychology/" → href="../../resources/psychology/"
+  href="/#contact" → href="../../#contact"
+
+File: resources/psychology/linza-vospriyatia-sebya-i-mira/index.html
+Changes made: 7
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/psychology/" → href="../../../resources/psychology/"
+  href="/resources/psychology/vnytrenniy-rebenok/" → href="../../../resources/psychology/vnytrenniy-rebenok/"
+  href="/resources/psychology/travma-iskagaet-vospriyatie/" → href="../../../resources/psychology/travma-iskagaet-vospriyatie/"
+  ... and 2 more changes
+
+File: resources/psychology/emotsionalnie-sostoyaniya/index.html
+Changes made: 7
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/psychology/" → href="../../../resources/psychology/"
+  href="/resources/psychology/vnytrenniy-rebenok/" → href="../../../resources/psychology/vnytrenniy-rebenok/"
+  href="/resources/psychology/travma-iskagaet-vospriyatie/" → href="../../../resources/psychology/travma-iskagaet-vospriyatie/"
+  ... and 2 more changes
+
+File: resources/psychology/vnytrenniy-rebenok/index.html
+Changes made: 7
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/psychology/" → href="../../../resources/psychology/"
+  href="/resources/psychology/travma-iskagaet-vospriyatie/" → href="../../../resources/psychology/travma-iskagaet-vospriyatie/"
+  href="/resources/psychology/travma-moget-emotsionalno-zamorozit/" → href="../../../resources/psychology/travma-moget-emotsionalno-zamorozit/"
+  ... and 2 more changes
+
+File: resources/psychology/travma-iskagaet-vospriyatie/index.html
+Changes made: 7
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/psychology/" → href="../../../resources/psychology/"
+  href="/resources/psychology/vnytrenniy-rebenok/" → href="../../../resources/psychology/vnytrenniy-rebenok/"
+  href="/resources/psychology/travma-moget-emotsionalno-zamorozit/" → href="../../../resources/psychology/travma-moget-emotsionalno-zamorozit/"
+  ... and 2 more changes
+
+File: resources/psychology/emotsii-svyazani-s-telom/index.html
+Changes made: 7
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/psychology/" → href="../../../resources/psychology/"
+  href="/resources/psychology/vnytrenniy-rebenok/" → href="../../../resources/psychology/vnytrenniy-rebenok/"
+  href="/resources/psychology/travma-iskagaet-vospriyatie/" → href="../../../resources/psychology/travma-iskagaet-vospriyatie/"
+  ... and 2 more changes
+
+File: resources/psychology/istselenie-travmi-trebuet-vremeni/index.html
+Changes made: 7
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/psychology/" → href="../../../resources/psychology/"
+  href="/resources/psychology/vnytrenniy-rebenok/" → href="../../../resources/psychology/vnytrenniy-rebenok/"
+  href="/resources/psychology/travma-iskagaet-vospriyatie/" → href="../../../resources/psychology/travma-iskagaet-vospriyatie/"
+  ... and 2 more changes
+
+File: resources/psychology/proektsia-zerkalo-vneyrennego-mira/index.html
+Changes made: 7
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/psychology/" → href="../../../resources/psychology/"
+  href="/resources/psychology/vnytrenniy-rebenok/" → href="../../../resources/psychology/vnytrenniy-rebenok/"
+  href="/resources/psychology/travma-iskagaet-vospriyatie/" → href="../../../resources/psychology/travma-iskagaet-vospriyatie/"
+  ... and 2 more changes
+
+File: resources/psychology/travma-moget-emotsionalno-zamorozit/index.html
+Changes made: 7
+  href="/" → href="../../../index.html"
+  href="/resources/" → href="../../../resources/"
+  href="/resources/psychology/" → href="../../../resources/psychology/"
+  href="/resources/psychology/vnytrenniy-rebenok/" → href="../../../resources/psychology/vnytrenniy-rebenok/"
+  href="/resources/psychology/travma-iskagaet-vospriyatie/" → href="../../../resources/psychology/travma-iskagaet-vospriyatie/"
+  ... and 2 more changes
+
+File: resources/questions/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/resources/" → href="../../resources/"
+  href="/resources/questions/relationships/trust-after-betrayal/" → href="../../resources/questions/relationships/trust-after-betrayal/"
+  href="/resources/questions/family/difficult-parents/" → href="../../resources/questions/family/difficult-parents/"
+  href="/resources/questions/personal/finding-purpose/" → href="../../resources/questions/personal/finding-purpose/"
+
+File: resources/questions/qa-template.html
+Changes made: 10
+  href="/" → href="../../index.html"
+  href="/resources/" → href="../../resources/"
+  href="/resources/questions/" → href="../../resources/questions/"
+  href="/resources/questions/#[CATEGORY]" → href="../../resources/questions/#[CATEGORY]"
+  href="/resources/questions/[CATEGORY]/[RELATED-SLUG-1]/" → href="../../resources/questions/[CATEGORY]/[RELATED-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/qa-template-ru.html
+Changes made: 10
+  href="/" → href="../../index.html"
+  href="/resources/" → href="../../resources/"
+  href="/resources/questions/" → href="../../resources/questions/"
+  href="/resources/questions/#[КАТЕГОРИЯ]" → href="../../resources/questions/#[КАТЕГОРИЯ]"
+  href="/resources/questions/[КАТЕГОРИЯ]/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../resources/questions/[КАТЕГОРИЯ]/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/career/kleptomania/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#career" → href="../../../../resources/questions/#career"
+  href="/resources/questions/career/[RELATED-SLUG-1]/" → href="../../../../resources/questions/career/[RELATED-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/general/mne-bezumno-stydno/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/general/ctho-chuvstvuetsya-vo-vremya-gipnoza/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#general" → href="../../../../resources/questions/#general"
+  href="/resources/questions/general/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/general/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/general/pochemu-ya-hochu-chtoby-menya/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/general/rezhu-sebya/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/general/alkogolnaya-zavisimost-chvu/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/general/kleptomania/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/divorce/poterya-samokontrolya/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#divorce" → href="../../../../resources/questions/#divorce"
+  href="/resources/questions/divorce/[RELATED-SLUG-1]/" → href="../../../../resources/questions/divorce/[RELATED-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ne-mogu-vybrat-medzhu-lyubovnikom-i/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/u-menya-fobiya-strah/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/revnost-k-proshlomu/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/delau-podarki-kak-pod-gipnozom/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ne-xochy-git-dalshe/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/neponimanie-ili-neprinyatie/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/moj-muzh-menya-oskorblyaet/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/u-zheny-byl-drugoj-muzhchina/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/on-genat-ya-zamugem-otnosheniya/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/seksualnoepnasilie-detskom-vozraste/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/kak-otuchit-muga-tratit/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/stradayu-bulimiei-i-ne-znayu/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/gelanie-bit-xoroshei/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ya-neschastna-v-otnosheniyah/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/razdrgenie-k-mugu/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/slognie-otnosheniya/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/doshla-do-takoi-zhizni/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/otnosheniya-s-zhenatym-muzhchi/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/problemy-v-seme/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ne-chuvstvyu-sebya-schastlivoi/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/paren-rezko-izmenilsya-stal-grubym/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/pochemy-slogno-otpuskat-kontrol/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/obzhorstvo-dovodit-do-bolezni/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/razdelyai-i-stradai-obediniai-i-sozidai/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/hochu-pokonchit-s-soboi/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/muzh-ili-lyubovnik/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/depressiya-kak-byt/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/zadat-svoi-vopros/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/myg-obschaetsya-s-drygoi/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/kak-eto-ostanovit-i-izmenit/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/myg-stal-otreshennim/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/vnushaemost-opredelenie/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/kogo-mne-vibrat/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ne-znau-kogo-mne-vibrat/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/pochemu-ya-hochu-chtoby-menya/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/hochu-stat-ravnodushnoi/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/izmena-muzha/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/otkladivie-gizni-na-potom/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/menya-perestali-zamechat/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/otnosheniya-s-parnem/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/alkogolnaya-zavisimost-c1zze/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/moi-paren-obshaetsya-s-bivshei/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ya-bez-nego-ne-mogu/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/stoit-li-prodolgat-otnosjenia/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/chuvst-net-no-ya-xochu-bit-s-nim/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/izmena-vo-sne/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ne-mogu-poluchit-orgazm/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/chto-takoe-gipervnushaemost/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/passivnaya-agressivnost/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/gena-polubila-drugogo/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/postoyanno-vlublyaus/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ya-srivaus-na-parnya/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/menya-obigaet-lubaya-meloch/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/moya-simpatiya-ne-vzaimna/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ssori-s-mygem-1/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/kak-polyubit-sebya/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/neyvagitelniy-myg/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ne-mogu-prostit-proshloe/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/mamenkin-sinok/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/alkogolnaya-zavisimost-chvu/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/kak-pomenyat-sebya/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/kak-otpustit-lyubimogo-cheloveka/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/jit-dalshe-ili-uiti/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/xochy-ymeret/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/kak-ya-mogu-pomoch/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/zamygem-no-lublu-drugogo/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/kak-vernut-lubov-muzha/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/kak-spravitsya-s-bessonnicei/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/bila-li-izmena/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/emotsionalnoe-vigoranie/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ne-mogy-dishat/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/privyazannost-v-obschenii/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ваши-ценности-ваша-жизнь/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/ogranichivayuschie-ubezhdeniya/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/schitayut-menya-zheleznoi/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/muzhchina-obshchaetsya-s-byvshej/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/paren-ne-pyskaet-v-tserkov/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/stadii-gipnoxa/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/obidno-byt-ispolzovannoj/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/kleptomania/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/vnebrachniy-rebenok/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/oinochestv-kak-obraz-gizni/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/byvshii-muzh/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/menya-net-v-moei-gizni/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/family/kopiya-shablon-otveta-1/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#family" → href="../../../../resources/questions/#family"
+  href="/resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/family/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/infidelity/gipnoterapia-kak-eto-rabotaet/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#infidelity" → href="../../../../resources/questions/#infidelity"
+  href="/resources/questions/infidelity/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/infidelity/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/infidelity/роль-серотонина-в-организме-человек/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/infidelity/kto-takoi-gipnoterapevt/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#infidelity" → href="../../../../resources/questions/#infidelity"
+  href="/resources/questions/infidelity/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/infidelity/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/infidelity/xochy-ymeret/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/infidelity/stress-emotsii-mozg/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/infidelity/kak-spravitsya-s-bessonnicei/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/infidelity/ogranichivayuschie-ubezhdeniya/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/ne-mogu-vybrat-medzhu-lyubovnikom-i/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/revnost-k-proshlomu/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/u-zheny-byl-drugoj-muzhchina/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/on-genat-ya-zamugem-otnosheniya/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/poterya-samokontrolya/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/sovmestnaya-rabota-s-psixologom/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/razdrgenie-k-mugu/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/myg-nezainteresovan-v-otnosheiyax/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/ne-chuvstvyu-sebya-schastlivoi/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/gipnos/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/raskayanie/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/pochemy-slogno-otpuskat-kontrol/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/copy-of-что-такое-сознание/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/depressiya-kak-byt/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/kak-eto-ostanovit-i-izmenit/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/myg-stal-otreshennim/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/menya-perestali-zamechat/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/iskageniya-vremeni-v-gipnoze/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/ya-bez-nego-ne-mogu/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/chto-takoe-soznanie/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/izmena-vo-sne/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/ne-mogu-poluchit-orgazm/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/мудрость-целостность/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/rezhu-sebya/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/gena-polubila-drugogo/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/ya-srivaus-na-parnya/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/menya-obigaet-lubaya-meloch/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/raznitsa-megdu-meditatsiei-i-gipnozom/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/meхanizm-bei-begi/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/vina/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/kak-upravlyat-ludmi/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/ne-mogy-dishat/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/privyazannost-v-obschenii/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/muzhchina-obshchaetsya-s-byvshej/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/byvshii-muzh/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: resources/questions/relationships/samogipnoz/index.html
+Changes made: 10
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/questions/" → href="../../../../resources/questions/"
+  href="/resources/questions/#relationships" → href="../../../../resources/questions/#relationships"
+  href="/resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/" → href="../../../../resources/questions/relationships/[СВЯЗАННЫЙ-SLUG-1]/"
+  ... and 5 more changes
+
+File: resources/questions/relationships/kopiya-shablon-otveta-1/index.html
+Changes made: 5
+  href="/" → href="../../../../index.html"
+  href="/resources/" → href="../../../../resources/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/resources/psychology/" → href="../../../../resources/psychology/"
+  href="/#contact" → href="../../../../#contact"
+
+File: therapy-sessions/index.html
+Changes made: 2
+  href="/therapeutic-contract/" → href="../therapeutic-contract/"
+  href="/effective-collaboration/" → href="../effective-collaboration/"
+
+File: about/index.html
+Changes made: 1
+  href="/#contact" → href="../#contact"
+
+File: blog/index.html
+Changes made: 25
+  href="/" → href="../index.html"
+  href="/#about" → href="../#about"
+  href="/#services" → href="../#services"
+  href="/blog/" → href="../blog/"
+  href="/#contact" → href="../#contact"
+  ... and 20 more changes
+
+File: blog/роль-серотонина-в-организме-человек/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/когда-несовершенство-истинная-сила/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/ода-женской-боли/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/как-найти-опору-в-трудные-времена/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/путь-к-себе-через-осмысление/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/почемумывступаемвтоксичныеотношения/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/в-поисках-себя-среди-суеты/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/мы-кузнецы-своего-счастья/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/фантазия-vs-иллюзия/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/все-что-ты-видишь-во-мне-не-мое/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/копия-краски-природы-1/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/в-глубинах-нашего-существа/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/прощение-это-не-оправдание/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/гармония-в-забытой-тишине/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/в-детстве-наедине-с-болью/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/взвесить-и-решиться/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/наши-желания-проецируются-на-партнера/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/мозаика-жизни/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/отпускать-чувство-вины/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/миф-о-любви-к-себе/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/ваша-тень-она-друг-или-враг/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/лецитин/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/мне-грустно-и-я-не-знаю-причину/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/отношение-к-себе-как-проекция-родительского-взгляда/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/простые-вещи/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/что-является-ключом-к-изменениям/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/copy-of-что-такое-сознание/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/стратегии-повышения-эмоциональной-устойчивости/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/хочешь-быть-счастливым-забудь-об-идеале/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/тишина-перед-движением/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/вселеннаянеиспытываетнас-апоказываетнашевнутреннеесостояние/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/чувства-это-очки-через-которые-мы-видим-мир/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/самосознани-самосознание-что-это/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/прошлое-и-будущее-это-иллюзии/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/шесть-признаков-перфексионизм/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/заметки/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/общие-созависимые-убеждения/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/руминация-что-это-такое/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/мудрость-целостность/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/как-найти-партнера-на-всю-жизнь/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/что-такое-любовь/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/в-поисках-самопринятия/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/детская-душа-достойна-услышать/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/meхanizm-bei-begi/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/человеческая-психика-это-сложный-механизм/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/полярность-дуальность/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/преодоление-потерь-через-переосмысление-воспоминаний/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/внутренний-рост-изменяет-отношения-со-кружающими/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/краски-природы/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/одиночество-мост-к-себе-другому-и-миру/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/зрелость-путьксебе/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/одиночество-вдвоем/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/как-мы-создаём-отношения/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/волшебное-королевство/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/ваши-ценности-ваша-жизнь/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/безопасность-это-про-присутствие-контакта/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/открой-свое-сердце/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/копия-краски-природы/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/как-перестать-спасать/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/установление-границ-c-родителями/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: blog/в-мрачном-полусвете-души/index.html
+Changes made: 5
+  href="/" → href="../../index.html"
+  href="/#about" → href="../../#about"
+  href="/#services" → href="../../#services"
+  href="/blog/" → href="../../blog/"
+  href="/#contact" → href="../../#contact"
+
+File: search/index.html
+Changes made: 1
+  action="/search" → action="../search"
+
+File: effective-collaboration/index.html
+Changes made: 1
+  href="/therapy-sessions/" → href="../therapy-sessions/"
+
+File: online-sessions/index.html
+Changes made: 4
+  href="/" → href="../index.html"
+  href="/#about" → href="../#about"
+  href="/#services" → href="../#services"
+  href="/blog/" → href="../blog/"
+
+File: services/index.html
+Changes made: 8
+  href="/" → href="../index.html"
+  href="/services/how-i-help/" → href="../services/how-i-help/"
+  href="/online-sessions/" → href="../online-sessions/"
+  href="/services/joint-work/" → href="../services/joint-work/"
+  href="/faq/" → href="../faq/"
+  ... and 3 more changes

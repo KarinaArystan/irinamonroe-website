@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Узнайте о гипнотерапии - понимание гипноза, его стадии, терапевтические применения и техники самогипноза с Ириной Монро">
+    <title>Гипнотерапия Ресурсы | Ирина Монро</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../mobile-fixes.css">
+    <link rel="stylesheet" href="../resources-styles.css">
+    
+    <style>
+        .topic-card {
+            background: var(--bg-lighter);
+            border-radius: 12px;
+            padding: 30px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: block;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .topic-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(147, 136, 74, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+        
+        .topic-card:hover::before {
+            left: 100%;
+        }
+        
+        .topic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .topic-card h3 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 26px;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .topic-card .arrow {
+            opacity: 0;
+            transform: translateX(-10px);
+            transition: all 0.3s ease;
+        }
+        
+        .topic-card:hover .arrow {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
+        .topic-card p {
+            font-size: 16px;
+            color: var(--text-dark);
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .intro-section {
+            max-width: 800px;
+            margin: 0 auto 60px;
+            text-align: center;
+        }
+        
+        .intro-section p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+        
+        @media (max-width: 768px) {
+            .topics-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div class="header-placeholder"></div>
+
+    <!-- Category Hero -->
+    <section class="category-hero">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="/">Главная</a>
+                <span>/</span>
+                <a href="/resources/">Ресурсы</a>
+                <span>/</span>
+                <span>Гипнотерапия</span>
+            </nav>
+            <h1>Гипнотерапия</h1>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="topics-section">
+        <div class="container">
+            <div class="intro-section">
+                <p>
+                    Гипнотерапия - это мощный терапевтический инструмент, который работает с естественными 
+                    способностями вашего разума. Эти ресурсы помогут вам понять гипноз, его терапевтическое 
+                    применение и то, как он может поддержать ваше путешествие исцеления и самопознания.
+                </p>
+            </div>
+
+            <!-- Topics Grid -->
+            <div class="topics-grid">
+                <!-- Topic 1: What is Hypnosis -->
+                <a href="/resources/hypnotherapy/what-is-hypnosis/" class="topic-card">
+                    <h3>
+                        <span>Что такое гипноз?</span>
+                        <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </h3>
+                    <p>Понимание природы гипнотических состояний и развенчание распространенных мифов о гипнозе</p>
+                </a>
+
+                <!-- Topic 2: How Гипнотерапия Works -->
+                <a href="/resources/hypnotherapy/how-it-works/" class="topic-card">
+                    <h3>
+                        <span>Как работает гипнотерапия</span>
+                        <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </h3>
+                    <p>Терапевтический процесс, используемые техники и что происходит во время сеанса гипнотерапии</p>
+                </a>
+
+                <!-- Topic 3: Who is a Hypnotherapist -->
+                <a href="/resources/hypnotherapy/who-is-hypnotherapist/" class="topic-card">
+                    <h3>
+                        <span>Кто такой гипнотерапевт?</span>
+                        <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </h3>
+                    <p>Роль, подготовка и этические обязанности профессионального гипнотерапевта</p>
+                </a>
+
+                <!-- Topic 4: What is Felt During Hypnosis -->
+                <a href="/resources/hypnotherapy/sensations-during-hypnosis/" class="topic-card">
+                    <h3>
+                        <span>Что чувствуется во время гипноза</span>
+                        <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </h3>
+                    <p>Общие ощущения и переживания во время гипнотических состояний</p>
+                </a>
+
+                <!-- Topic 5: Stages of Hypnosis -->
+                <a href="/resources/hypnotherapy/stages-of-hypnosis/" class="topic-card">
+                    <h3>
+                        <span>Стадии гипноза</span>
+                        <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </h3>
+                    <p>Понимание различных глубин и стадий гипнотического транса</p>
+                </a>
+
+                <!-- Topic 6: Self-Hypnosis -->
+                <a href="/resources/hypnotherapy/self-hypnosis/" class="topic-card">
+                    <h3>
+                        <span>Самогипноз</span>
+                        <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </h3>
+                    <p>Техники и практики использования самогипноза для личностного роста и исцеления</p>
+                </a>
+
+                <!-- Topic 7: Time Distortion in Hypnosis -->
+                <a href="/resources/hypnotherapy/time-distortion/" class="topic-card">
+                    <h3>
+                        <span>Искажение времени в гипнозе</span>
+                        <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </h3>
+                    <p>Как меняется восприятие времени в гипнотических состояниях и его терапевтическое применение</p>
+                </a>
+
+                <!-- Topic 8: Meditation vs Hypnosis -->
+                <a href="/resources/hypnotherapy/meditation-vs-hypnosis/" class="topic-card">
+                    <h3>
+                        <span>Разница между медитацией и гипнозом</span>
+                        <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </h3>
+                    <p>Понимание сходств и ключевых различий между этими двумя практиками</p>
+                </a>
+
+                <!-- Topic 9: Hypersuggestibility -->
+                <a href="/resources/hypnotherapy/hypersuggestibility/" class="topic-card">
+                    <h3>
+                        <span>Что такое гипервнушаемость?</span>
+                        <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </h3>
+                    <p>Исследование повышенной восприимчивости к внушениям в гипнотических состояниях</p>
+                </a>
+
+                <!-- Topic 10: Suggestibility Definition -->
+                <a href="/resources/hypnotherapy/suggestibility/" class="topic-card">
+                    <h3>
+                        <span>Внушаемость: определение и роль</span>
+                        <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </h3>
+                    <p>Понимание внушаемости как естественной человеческой черты и ее роли в терапии</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="background: var(--bg-light); padding: 60px 0; margin-top: 80px;">
+        <div class="container" style="text-align: center;">
+            <h2 style="font-family: 'Cormorant Infant', serif; font-size: 36px; margin-bottom: 20px;">
+                <span>Интересует гипнотерапия?</span>
+            </h2>
+            <p style="font-size: 18px; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                <span>Узнайте, как гипнотерапия может поддержать ваше путешествие исцеления и трансформации</span>
+            </p>
+            <a href="/#contact" class="nav-cta" style="padding: 14px 40px; font-size: 16px; display: inline-block;">
+                <span>Записаться на консультацию</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div class="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="../../script.js"></script>
+</body>
+</html>
