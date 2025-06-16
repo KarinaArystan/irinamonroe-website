@@ -1,0 +1,12 @@
+{
+  "totalQuestions": 6,
+  "categories": [
+    "career",
+    "family"
+  ],
+  "processingErrors": [],
+  "questionsPerCategory": {
+    "career": 1,
+    "family": 5
+  }
+}

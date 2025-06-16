@@ -1,0 +1,38 @@
+[
+    {
+        "category": "relationships",
+        "categoryName": "Couples & Relationships",
+        "urlSlug": "trust-after-betrayal",
+        "questionEn": "How to rebuild trust after betrayal?",
+        "questionRu": "Как восстановить доверие после предательства?",
+        "descriptionEn": "Understanding the complex process of healing and rebuilding trust in relationships after betrayal. Therapeutic insights on forgiveness, boundaries, and emotional recovery.",
+        "descriptionRu": "Понимание сложного процесса исцеления и восстановления доверия в отношениях после предательства. Терапевтические инсайты о прощении, границах и эмоциональном восстановлении.",
+        "keywords": "trust, betrayal, relationships, healing, forgiveness, therapy, couples counseling",
+        "contentEn": "When trust has been broken, the path forward can feel impossible. The pain of betrayal touches the very foundation of who we thought we were in relation to another.\n\nRebuilding trust is not about forgetting or minimizing what happened. It's about creating space for a new understanding to emerge - one that includes the reality of what occurred while remaining open to the possibility of healing.\n\nThis process requires time, patience, and often professional support. Both partners need to be willing to sit with difficult emotions and have conversations that may feel threatening to the relationship's survival.\n\nThe person who broke trust must be willing to take full responsibility without defensiveness, while the hurt partner needs support in processing their pain without becoming stuck in it.\n\nTrust rebuilds slowly, through consistent actions over time. It's not a single decision but a thousand small choices to remain present with what is real between you.",
+        "contentRu": "Когда доверие нарушено, путь вперед может казаться невозможным. Боль предательства касается самой основы того, кем мы думали себя в отношении к другому.\n\nВосстановление доверия - это не о том, чтобы забыть или минимизировать произошедшее. Это о создании пространства для появления нового понимания - такого, которое включает реальность произошедшего, оставаясь открытым к возможности исцеления.\n\nЭтот процесс требует времени, терпения и часто профессиональной поддержки. Оба партнера должны быть готовы находиться с трудными эмоциями и вести разговоры, которые могут казаться угрожающими для выживания отношений.\n\nЧеловек, который нарушил доверие, должен быть готов взять полную ответственность без защитности, в то время как раненый партнер нуждается в поддержке в переработке своей боли без застревания в ней.\n\nДоверие восстанавливается медленно, через последовательные действия со временем. Это не единичное решение, а тысяча маленьких выборов оставаться присутствующим с тем, что реально между вами.",
+        "publishDate": "2024-01-19",
+        "relatedQuestions": [
+            {
+                "slug": "forgiveness-in-relationships",
+                "titleEn": "The role of forgiveness in healing",
+                "titleRu": "Роль прощения в исцелении",
+                "excerptEn": "Exploring what true forgiveness means and its place in relationship recovery",
+                "excerptRu": "Исследование того, что означает истинное прощение и его место в восстановлении отношений"
+            },
+            {
+                "slug": "setting-boundaries-after-hurt",
+                "titleEn": "Setting boundaries after being hurt",
+                "titleRu": "Установление границ после травмы",
+                "excerptEn": "Learning to protect yourself while remaining open to connection",
+                "excerptRu": "Учиться защищать себя, оставаясь открытым для связи"
+            },
+            {
+                "slug": "when-to-stay-when-to-leave",
+                "titleEn": "When to stay and when to leave",
+                "titleRu": "Когда остаться и когда уйти",
+                "excerptEn": "Navigating the difficult decision about the future of your relationship",
+                "excerptRu": "Навигация в трудном решении о будущем ваших отношений"
+            }
+        ]
+    }
+]

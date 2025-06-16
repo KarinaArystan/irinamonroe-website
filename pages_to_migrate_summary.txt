@@ -1,0 +1,96 @@
+PAGES THAT STILL NEED TO BE MIGRATED
+=====================================
+
+MAIN PAGES:
+-----------
+1. Homepage: https://www.irinamonroe.com/
+2. About Me: https://www.irinamonroe.com/aboutme
+3. FAQ: https://www.irinamonroe.com/faq
+4. Form: https://www.irinamonroe.com/form
+5. Contract: https://www.irinamonroe.com/contract
+6. Privacy Policy: https://www.irinamonroe.com/privacy-policy
+7. Articles/Stati: https://www.irinamonroe.com/stati
+
+SERVICE/INFORMATION PAGES:
+--------------------------
+1. How I Can Help: https://www.irinamonroe.com/kak-ya-mogu-pomoch
+2. Skype Session: https://www.irinamonroe.com/skype-sessia
+3. Joint Work with Psychologist: https://www.irinamonroe.com/sovmestnaya-rabota-s-psixologom
+4. Question-Answer: https://www.irinamonroe.com/vopros-otvet
+5. Ask Your Question: https://www.irinamonroe.com/zadat-svoi-vopros
+
+HYPNOTHERAPY PAGES:
+-------------------
+1. Hypnosis: https://www.irinamonroe.com/gipnos
+2. Hypnotherapy How It Works: https://www.irinamonroe.com/gipnoterapia-kak-eto-rabotaet
+3. Who is a Hypnotherapist: https://www.irinamonroe.com/kto-takoi-gipnoterapevt
+4. What is Felt During Hypnosis: https://www.irinamonroe.com/ctho-chuvstvuetsya-vo-vremya-gipnoza
+5. Stages of Hypnosis: https://www.irinamonroe.com/stadii-gipnoxa
+6. Self-Hypnosis: https://www.irinamonroe.com/samogipnoz
+7. Time Distortion in Hypnosis: https://www.irinamonroe.com/iskageniya-vremeni-v-gipnoze
+8. Difference Between Meditation and Hypnosis: https://www.irinamonroe.com/raznitsa-megdu-meditatsiei-i-gipnozom
+9. What is Hypersuggestibility: https://www.irinamonroe.com/chto-takoe-gipervnushaemost
+10. Suggestibility Definition: https://www.irinamonroe.com/vnushaemost-opredelenie
+
+PSYCHOLOGY/THERAPY TOPICS:
+--------------------------
+1. What is Consciousness: https://www.irinamonroe.com/chto-takoe-soznanie
+2. Inner Child: https://www.irinamonroe.com/kto-takoi-vnytrennii-rebenok / https://www.irinamonroe.com/vnytrenniy-rebenok
+3. Trauma Distorts Perception: https://www.irinamonroe.com/travma-iskagaet-vospriyatie
+4. Trauma Can Emotionally Freeze: https://www.irinamonroe.com/travma-moget-emotsionalno-zamorozit
+5. View on Trauma: https://www.irinamonroe.com/vzglyad-na-travmu
+6. Healing Trauma Takes Time: https://www.irinamonroe.com/istselenie-travmi-trebuet-vremeni
+7. Emotions Connected to Body: https://www.irinamonroe.com/emotsii-svyazani-s-telom
+8. Emotional States: https://www.irinamonroe.com/emotsionalnie-sostoyaniya
+9. Emotional Burnout: https://www.irinamonroe.com/emotsionalnoe-vigoranie
+10. Fight or Flight Mechanism: https://www.irinamonroe.com/meхanizm-bei-begi
+11. Limiting Beliefs: https://www.irinamonroe.com/ogranichivayuschie-ubezhdeniya
+12. Projection Mirror of Inner World: https://www.irinamonroe.com/proektsia-zerkalo-vneyrennego-mira
+13. Lens of Self and World Perception: https://www.irinamonroe.com/linza-vospriyatia-sebya-i-mira
+14. Stress Emotions Brain: https://www.irinamonroe.com/stress-emotsii-mozg
+
+RELATIONSHIP ISSUES (Q&A STYLE):
+--------------------------------
+[Note: There are approximately 100+ Q&A style pages covering various relationship, family, and personal issues. These appear to be individual consultation responses or advice pages. They cover topics such as:]
+
+- Infidelity and trust issues
+- Family and parent-child relationships
+- Self-esteem and personal growth
+- Depression and mental health
+- Addiction and dependency
+- Marriage and relationship problems
+- Sexual and intimate issues
+- Life decisions and changes
+
+DUPLICATE/COPY PAGES TO REVIEW:
+--------------------------------
+1. https://www.irinamonroe.com/копия-краски-природы-1
+2. https://www.irinamonroe.com/copy-of-что-такое-сознание
+3. https://www.irinamonroe.com/copy-of-приветствие
+4. https://www.irinamonroe.com/kopiya-shablon-otveta-1
+5. https://www.irinamonroe.com/kopiya-zhelanie-byt-horoshej
+6. https://www.irinamonroe.com/kontract (duplicate of contract?)
+7. https://www.irinamonroe.com/ssori-s-mygem and https://www.irinamonroe.com/ssori-s-mygem-1
+8. https://www.irinamonroe.com/alkogolnaya-zavisimost-c1zze and https://www.irinamonroe.com/alkogolnaya-zavisimost-chvu
+
+SPECIAL CASE:
+-------------
+https://www.irinamonroe.com/вселеннаянеиспытываетнас-апоказываетнашевнутреннеесостояние
+(This URL appears to have a different format - missing hyphens between words)
+
+TOTAL COUNT:
+------------
+Approximately 186 pages need to be migrated, consisting of:
+- 7 main navigation pages
+- 5 service/information pages  
+- 10 hypnotherapy-related pages
+- 14 psychology/therapy educational pages
+- ~150 Q&A/consultation response pages
+- 8 duplicate/copy pages that need review
+
+RECOMMENDATION:
+---------------
+1. Start with main pages (homepage, about, contact forms)
+2. Then migrate service and hypnotherapy pages
+3. Review and consolidate duplicate pages
+4. Consider organizing the Q&A pages into categories or a searchable database rather than individual pages

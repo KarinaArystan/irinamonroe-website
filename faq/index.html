@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Часто задаваемые вопросы о терапии с Ириной Монро">
+    <title>Часто задаваемые вопросы | Ирина Монро</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../mobile-fixes.css">
+    <style>
+        .faq-hero {
+            padding: 80px 0 60px;
+            background: var(--bg-light);
+            text-align: center;
+            margin-top: 124px;
+        }
+
+        .faq-hero h1 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 48px;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+
+        .faq-section {
+            padding: 80px 0;
+            background: var(--white);
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        .faq-item {
+            margin-bottom: 25px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 25px;
+        }
+
+        .faq-question {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            padding: 10px 0;
+            transition: color 0.3s ease;
+        }
+
+        .faq-question:hover {
+            color: var(--primary-color);
+        }
+
+        .faq-question h3 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 24px;
+            font-weight: 400;
+            margin: 0;
+            flex: 1;
+        }
+
+        .faq-toggle {
+            width: 24px;
+            height: 24px;
+            position: relative;
+            flex-shrink: 0;
+            margin-left: 20px;
+        }
+
+        .faq-toggle::before,
+        .faq-toggle::after {
+            content: '';
+            position: absolute;
+            background: var(--text-dark);
+            transition: all 0.3s ease;
+        }
+
+        .faq-toggle::before {
+            width: 100%;
+            height: 2px;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+
+        .faq-toggle::after {
+            width: 2px;
+            height: 100%;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .faq-item.active .faq-toggle::after {
+            transform: translateX(-50%) rotate(90deg);
+            opacity: 0;
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-answer-content {
+            padding: 20px 0;
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text-dark);
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
+        @media (max-width: 768px) {
+            .faq-hero h1 {
+                font-size: 36px;
+            }
+
+            .faq-question h3 {
+                font-size: 20px;
+            }
+
+            .faq-container {
+                padding: 0 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Placeholder header -->
+    <div class="header-placeholder"></div>
+
+    <!-- Часто задаваемые вопросы Hero -->
+    <section class="faq-hero">
+        <div class="container">
+            <h1>Часто задаваемые вопросы</h1>
+            <p>Общие вопросы о терапии, сессиях и совместной работе</p>
+        </div>
+    </section>
+
+    <!-- Часто задаваемые вопросы Content -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <!-- Часто задаваемые вопросы Item 1 -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Сколько длится терапевтическая сессия?</h3>
+                    <div class="faq-toggle"></div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>Индивидуальные терапевтические сессии обычно длятся 50-60 минут. Эта продолжительность позволяет проводить значимое исследование, сохраняя при этом фокус и эмоциональную устойчивость.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Часто задаваемые вопросы Item 2 -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Как часто мне следует посещать терапию?</h3>
+                    <div class="faq-toggle"></div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>Частота сессий зависит от ваших индивидуальных потребностей и обстоятельств. Большинство клиентов начинают с еженедельных сессий, что обеспечивает непрерывность и импульс для терапевтического процесса. По мере прогресса мы можем вместе корректировать частоту.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Часто задаваемые вопросы Item 3 -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Что я могу ожидать на первой сессии?</h3>
+                    <div class="faq-toggle"></div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>Первая сессия - это возможность познакомиться друг с другом. Мы обсудим, что привело вас к терапии, ваши цели и любые вопросы, которые у вас могут возникнуть. Это также время, чтобы понять, подходим ли мы друг другу терапевтически. Нет никакого давления делиться больше, чем вам комфортно.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Часто задаваемые вопросы Item 4 -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Является ли онлайн-терапия такой же эффективной, как очная?</h3>
+                    <div class="faq-toggle"></div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>Исследования показывают, что онлайн-терапия может быть столь же эффективной, как и очная терапия для многих людей и состояний. Ключевым является качество терапевтических отношений и ваш комфорт с форматом. Я работаю над созданием теплого, связанного пространства независимо от среды.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Часто задаваемые вопросы Item 5 -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Как я узнаю, что терапия работает?</h3>
+                    <div class="faq-toggle"></div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>Прогресс в терапии может быть тонким и нелинейным. Вы можете заметить повышенное самосознание, улучшение отношений, лучшую эмоциональную регуляцию или сдвиг в давних паттернах. Мы будем регулярно обсуждать ваш опыт и корректировать наш подход по мере необходимости.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Часто задаваемые вопросы Item 6 -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Какова ваша политика отмены?</h3>
+                    <div class="faq-toggle"></div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>Я понимаю, что в жизни случается всякое. Пожалуйста, предупредите как минимум за 24 часа, если вам нужно отменить или перенести сессию. Это позволяет мне предложить это время кому-то еще, кто может в нем нуждаться.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Часто задаваемые вопросы Item 7 -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Является ли всё, чем я делюсь, конфиденциальным?</h3>
+                    <div class="faq-toggle"></div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>Да, конфиденциальность является основой терапии. То, чем вы делитесь на наших сессиях, остается между нами, за очень редкими юридическими исключениями (такими как непосредственная опасность для вас или других). Мы подробно обсудим конфиденциальность на нашей первой сессии.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Placeholder footer -->
+    <div class="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+    <script>
+        // Часто задаваемые вопросы Toggle functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                const wasActive = faqItem.classList.contains('active');
+                
+                // Close all other items
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                
+                // Toggle current item
+                if (!wasActive) {
+                    faqItem.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

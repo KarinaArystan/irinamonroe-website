@@ -1,0 +1,14 @@
+{
+  "totalRows": 119,
+  "totalProcessed": 103,
+  "breakdown": {
+    "qa": 14,
+    "hypnotherapy": 15,
+    "psychology": 71,
+    "service": 3,
+    "main": 0,
+    "unknown": 0
+  },
+  "errors": 7,
+  "timestamp": "2025-06-15T05:49:11.928Z"
+}

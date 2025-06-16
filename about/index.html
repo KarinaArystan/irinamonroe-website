@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Обо мне - Ирина Монро, психолог и гипнотерапевт с 19+ летним опытом. Онлайн терапия, гипнотерапия, эмоциональная поддержка.">
+    <meta name="keywords" content="Ирина Монро, психолог, гипнотерапевт, онлайн терапия, обо мне">
+    <meta name="author" content="Ирина Монро">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Обо мне | Ирина Монро">
+    <meta property="og:description" content="Психолог и гипнотерапевт с 19+ летним опытом. Помогаю людям обрести внутреннюю опору и жить более осознанно.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.irinamonroe.com/about/">
+    
+    <title>Обо мне | Ирина Монро</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../mobile-fixes.css">
+    
+    <style>
+        /* О себе Page Specific Styles */
+        .about-hero {
+            padding: 100px 0 60px;
+            background: var(--bg-light);
+            text-align: center;
+        }
+        
+        .about-hero h1 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 64px;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+        
+        .about-content {
+            padding: 80px 0;
+        }
+        
+        .about-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+        
+        .about-intro {
+            font-size: 24px;
+            line-height: 1.6;
+            color: var(--text-dark);
+            margin-bottom: 60px;
+            font-family: 'Cormorant Infant', serif;
+            text-align: center;
+        }
+        
+        .about-section {
+            margin-bottom: 60px;
+        }
+        
+        .about-section h2 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 36px;
+            color: var(--text-dark);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+        
+        .about-section p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: var(--text-dark);
+            margin-bottom: 24px;
+        }
+        
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin: 60px 0;
+            padding: 60px 40px;
+            background: var(--bg-lighter);
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .stat-item h3 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 48px;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-weight: 400;
+        }
+        
+        .stat-item p {
+            font-size: 16px;
+            color: var(--text-muted);
+            margin: 0;
+        }
+        
+        .about-quote {
+            padding: 40px;
+            background: var(--bg-light);
+            border-left: 4px solid var(--primary-color);
+            margin: 60px 0;
+        }
+        
+        .about-quote p {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 24px;
+            line-height: 1.6;
+            color: var(--text-dark);
+            margin: 0;
+            font-style: italic;
+        }
+        
+        .about-cta {
+            text-align: center;
+            padding: 80px 0;
+        }
+        
+        .about-cta h2 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 36px;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+        }
+        
+        .about-cta p {
+            font-size: 20px;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+        }
+        
+        @media (max-width: 768px) {
+            .about-hero h1 {
+                font-size: 48px;
+            }
+            
+            .about-container {
+                padding: 0 20px;
+            }
+            
+            .about-intro {
+                font-size: 20px;
+            }
+            
+            .about-section h2 {
+                font-size: 28px;
+            }
+            
+            .about-stats {
+                grid-template-columns: 1fr;
+                padding: 40px 20px;
+            }
+            
+            .about-quote {
+                padding: 30px 20px;
+            }
+            
+            .about-quote p {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div class="header-placeholder"></div>
+
+    <!-- О себе Hero -->
+    <section class="about-hero">
+        <div class="container">
+            <h1>Обо мне</h1>
+        </div>
+    </section>
+
+    <!-- О себе Content -->
+    <section class="about-content">
+        <div class="about-container">
+            <p class="about-intro">
+                Меня зовут Ирина Монро. Я психолог и гипнотерапевт, и уже более 19 лет помогаю людям находить путь к себе настоящим.
+            </p>
+
+            <!-- Professional Journey -->
+            <div class="about-section">
+                <h2>Мой профессиональный путь</h2>
+                <p>
+                    Моя практика началась в 2008 году с классического подхода, который с годами трансформировался и обогащался новыми методами и пониманием человеческой психики. За эти годы я провела более 1000 консультаций, и каждая из них укрепляла мое убеждение: истинная терапия происходит не через исправление, а через присутствие и принятие.
+                </p>
+                <p>
+                    Я продолжаю профессиональное развитие, регулярно прохожу супервизии и исследую новые подходы в психологии и гипнотерапии. Это позволяет мне оставаться в контакте с современными методами помощи, сохраняя при этом глубину и человечность в работе.
+                </p>
+            </div>
+
+            <!-- Philosophy -->
+            <div class="about-quote">
+                <p>
+                    "Психология для меня — не просто деятельность, а пространство, в котором я полностью присутствую, в интересе к другому человеку, в стремлении видеть не роль, а подлинное, и в способности быть рядом, когда это подлинное становится видимым."
+                </p>
+            </div>
+
+            <!-- Approach -->
+            <div class="about-section">
+                <h2>Мой подход</h2>
+                <p>
+                    Мне важно не исправлять человека, а быть рядом так, чтобы он сам мог почувствовать себя настоящим. Я верю, что каждый человек обладает внутренней мудростью и силой для исцеления — моя задача создать безопасное пространство, где эта мудрость может проявиться.
+                </p>
+                <p>
+                    В своей работе я объединяю различные подходы: классическую психотерапию, гипнотерапию, работу с травмой и телесные практики. Это позволяет мне подбирать наиболее подходящие методы для каждого конкретного человека и ситуации.
+                </p>
+            </div>
+
+            <!-- Statistics -->
+            <div class="about-stats">
+                <div class="stat-item">
+                    <h3>19+</h3>
+                    <p>лет в профессии</p>
+                </div>
+                <div class="stat-item">
+                    <h3>1000+</h3>
+                    <p>консультаций</p>
+                </div>
+                <div class="stat-item">
+                    <h3>2008</h3>
+                    <p>год основания практики</p>
+                </div>
+            </div>
+
+            <!-- Personal Note -->
+            <div class="about-section">
+                <h2>Где я сейчас</h2>
+                <p>
+                    Много лет я жила в Лос-Анджелесе, а сейчас мой дом — во Флориде. Работаю онлайн, что позволяет мне быть доступной для клиентов из разных уголков мира. Географические границы больше не являются препятствием для тех, кто ищет поддержку и понимание.
+                </p>
+                <p>
+                    Онлайн-формат открыл новые возможности для терапевтической работы. Он позволяет создавать глубокую связь и проводить эффективную терапию, сохраняя при этом комфорт и безопасность домашнего пространства для клиента.
+                </p>
+            </div>
+
+            <!-- Why I Do This -->
+            <div class="about-section">
+                <h2>Почему я этим занимаюсь</h2>
+                <p>
+                    Каждый день я вижу, как люди находят в себе силы для изменений, как они открывают свои истинные чувства и желания, как учатся жить более полной и осознанной жизнью. Это вдохновляет меня продолжать свою работу и развиваться как специалист.
+                </p>
+                <p>
+                    Я верю, что психотерапия — это не роскошь, а необходимость в современном мире. Это инвестиция в качество жизни, в отношения с собой и другими, в способность радоваться и справляться с трудностями.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="about-cta">
+        <div class="container">
+            <h2>Готовы начать свой путь?</h2>
+            <p>Я здесь, чтобы поддержать вас в этом важном путешествии к себе</p>
+            <a href="/#contact" class="nav-cta" style="padding: 14px 40px; font-size: 16px; display: inline-block;">
+                Записаться на консультацию
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div class="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Информация об онлайн консультациях с психологом Ириной Монро. Как проходят сессии, стоимость, подготовка к встрече.">
+    <meta name="keywords" content="онлайн терапия, психологическая консультация, Skype сессия, Zoom терапия">
+    <title>Онлайн консультации | Ирина Монро</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../mobile-fixes.css">
+    <style>
+        /* Page-specific styles */
+        .therapy-hero {
+            padding: 120px 0 80px;
+            background: url('../images/title-bg.jpg') center center/cover;
+            background-attachment: fixed;
+            text-align: center;
+            margin-top: 124px;
+            position: relative;
+        }
+        
+        .therapy-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(237, 234, 228, 0.4);
+            z-index: 1;
+        }
+        
+        .therapy-hero .container {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .therapy-hero h1 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 48px;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            font-weight: 300;
+            line-height: 1.2;
+        }
+        
+        .therapy-hero p {
+            font-size: 18px;
+            color: var(--text-dark);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        .therapy-content {
+            padding: 80px 0;
+            background: var(--white);
+        }
+        
+        .content-section {
+            max-width: 900px;
+            margin: 0 auto 60px;
+            padding: 0 40px;
+        }
+        
+        .content-section h2 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 36px;
+            color: var(--text-dark);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+        
+        .content-section p {
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+        }
+        
+        .info-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        @media (max-width: 968px) {
+            .therapy-hero {
+                padding: 80px 0 40px;
+            }
+            
+            .therapy-hero h1 {
+                font-size: 36px;
+            }
+            
+            .therapy-hero p {
+                font-size: 16px;
+            }
+            
+            .therapy-content {
+                padding: 40px 0;
+            }
+            
+            .content-section {
+                padding: 0 15px;
+                margin-bottom: 40px;
+            }
+            
+            .content-section h2 {
+                font-size: 28px;
+                margin-bottom: 20px;
+            }
+            
+            .content-section p {
+                font-size: 15px;
+            }
+            
+            .info-cards {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-top: 30px;
+            }
+            
+            .info-card {
+                padding: 25px 20px;
+            }
+            
+            .info-card h3 {
+                font-size: 24px;
+            }
+            
+            .steps-list li {
+                padding: 15px 0 15px 40px;
+                font-size: 15px;
+            }
+            
+            .steps-list li::before {
+                width: 25px;
+                height: 25px;
+                font-size: 12px;
+            }
+            
+            .highlight-box {
+                margin: 30px -15px;
+                padding: 25px 20px;
+            }
+            
+            .highlight-box h3 {
+                font-size: 28px;
+            }
+            
+            .cta-section {
+                padding: 60px 0;
+            }
+            
+            .cta-section h2 {
+                font-size: 32px;
+            }
+            
+            .cta-section p {
+                font-size: 16px;
+                padding: 0 15px;
+            }
+        }
+        
+        .info-card {
+            background: var(--bg-lighter);
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .info-card h3 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 28px;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+        }
+        
+        .info-card p {
+            font-size: 16px;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        
+        .steps-list {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+        }
+        
+        .steps-list li {
+            padding: 20px 0 20px 50px;
+            position: relative;
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--text-dark);
+            border-bottom: 1px solid rgba(87, 76, 64, 0.1);
+        }
+        
+        .steps-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .steps-list li::before {
+            content: counter(step-counter);
+            counter-increment: step-counter;
+            position: absolute;
+            left: 0;
+            top: 20px;
+            width: 30px;
+            height: 30px;
+            background: var(--accent-terra);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        
+        .steps-list {
+            counter-reset: step-counter;
+        }
+        
+        .highlight-box {
+            background: rgba(170, 113, 78, 0.08);
+            padding: 40px;
+            border-radius: 8px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .highlight-box h3 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 32px;
+            color: var(--accent-terra);
+            margin-bottom: 15px;
+        }
+        
+        .cta-section {
+            padding: 100px 0;
+            background: var(--bg-section);
+            text-align: center;
+        }
+        
+        .cta-section h2 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 42px;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+        }
+        
+        .cta-section p {
+            font-size: 18px;
+            color: var(--text-dark);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--accent-terra);
+            color: var(--white);
+            padding: 18px 50px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background: var(--primary-color);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div class="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="therapy-hero">
+        <div class="container">
+            <h1>Онлайн сессия</h1>
+            <p>Пространство, где вы можете быть настоящими</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="therapy-content">
+        <div class="container">
+            <!-- Как проходит терапевтическая сессия -->
+            <div class="content-section">
+                <h2>Как проходит терапевтическая сессия?</h2>
+                
+                <p>На сессиях я встречу вас не просто как клиента, но как уникальную личность, живущую свою историю, со всеми её радостями и сложностями. Это пространство, где вы можете быть настоящими, без страха осуждения или необходимости угождать чужим ожиданиям.</p>
+                
+                <p>Здесь мы вместе будем исследовать то, что вас беспокоит. Не нужно спешить или стараться сделать всё «правильно» — каждый приходит к своим открытиям в своём ритме. Я буду рядом, чтобы задавать вопросы, поддерживать и создавать ту атмосферу доверия, в которой можно говорить о самом сложном.</p>
+                
+                <div class="highlight-box">
+                    <p>Я верю, что в каждом из нас есть сила, способная преодолеть внутренние конфликты. Иногда для этого нужно просто услышать себя, и в этом моя роль: помочь вам заглянуть внутрь, туда, где находятся ответы на ваши вопросы.</p>
+                </div>
+                
+                <p>Каждая сессия — это не только разговор, но и глубокое совместное исследование. Мы не только посмотрим на ваши проблемы, но и найдём в них уроки и ресурсы, которые могут стать основой для роста. Это пространство, где можно позволить себе быть уязвимым, потому что в этой уязвимости кроется ваша сила.</p>
+                
+                <p style="text-align: center; font-style: italic; margin-top: 40px;">Приходите, чтобы вместе искать смысл, ответы и, возможно, открыть для себя что-то большее, чем вы ожидали.</p>
+            </div>
+
+            <!-- Как записаться -->
+            <div class="content-section">
+                <h2>Чтобы записаться на онлайн-сессию</h2>
+                <ol class="steps-list">
+                    <li><strong>Напишите мне</strong> по электронной почте info@irinamonroe.com, какой цели вы хотели бы достичь, что планируете изменить в своей жизни, от чего избавиться. После я смогу вам ответить, входит ли ваша проблема в зону моей компетенции.</li>
+                    
+                    <li><strong>Ознакомьтесь с <a href="/therapeutic-contract/" style="color: var(--accent-terra); text-decoration: underline;">терапевтическим контрактом</a>.</strong> Если вы согласны с условиями контракта, вы можете оплатить в системе PayPal, Venmo, Zelle.</li>
+                    
+                    <li><strong>Оплата сессии</strong> производится не позже, чем за 24 часа до начала сессии.</li>
+                    
+                    <li><strong>Подготовьте спокойную обстановку,</strong> где вас никто не будет отвлекать. Лучше отключить телефоны, радио, телевизор, будильник — всё то, что может нам помешать.</li>
+                    
+                    <li><strong>Узнайте, <a href="/effective-collaboration/" style="color: var(--accent-terra); text-decoration: underline;">что сделает нашу совместную работу эффективной</a>.</strong> Чтобы наша беседа была эффективной и я могла вам помочь во время онлайн-сессии, важно понимать принципы успешного взаимодействия.</li>
+                    
+                    <li><strong>Мы можем встретиться</strong> в Skype, WhatsApp, FaceTime или Zoom. Если вы не зарегистрированы в выбранной платформе, пожалуйста, сделайте это заранее. Я буду ждать вашего звонка в точно назначенное время.</li>
+                </ol>
+                
+                <div class="highlight-box" style="margin-top: 40px;">
+                    <h3 style="margin-bottom: 15px;">Важно помнить</h3>
+                    <p>Если вы опаздываете к назначенному времени нашей встречи, вы укорачиваете лично отведенное вам время. К сожалению, я не смогу компенсировать время вашего опоздания, так как за вами могут быть другие клиенты.</p>
+                </div>
+            </div>
+
+            <!-- Важные условия -->
+            <div class="content-section">
+                <h2>Важные условия</h2>
+                
+                <div style="margin-bottom: 40px;">
+                    <h3 style="font-family: 'Cormorant Infant', serif; font-size: 24px; margin-bottom: 15px;">Изменение планов</h3>
+                    <p>Если ваши планы изменились, вы должны сообщить за 24 часа до начала вашей сессии. Если вы не смогли уведомить меня за 24 часа — вам нужно будет оплатить сессию в полном размере.</p>
+                    <p style="font-style: italic; margin-top: 15px;">Это правило обеспечивает для вас ответственность за присутствие в нашей работе, а для меня — устойчивость моего рабочего расписания.</p>
+                </div>
+                
+                <div style="margin-bottom: 40px;">
+                    <h3 style="font-family: 'Cormorant Infant', serif; font-size: 24px; margin-bottom: 15px;">Конфиденциальность</h3>
+                    <p>Я гарантирую полную конфиденциальность нашей работы. Никакие подробности вашей жизни не будут переданы третьим лицам в устной или письменной форме, в том числе членам семьи или родственникам, без явного вашего согласия.</p>
+                    <p style="font-size: 14px; opacity: 0.8; margin-top: 10px;">*За исключением тех случаев, когда данное условие противоречит закону.</p>
+                </div>
+            </div>
+
+            <!-- Оплата -->
+            <div class="content-section">
+                <h2>Оплата</h2>
+                
+                <div class="info-cards">
+                    <div class="info-card">
+                        <h3>Способы оплаты</h3>
+                        <p><strong>Venmo:</strong> @Irina-Monroe<br>
+                        <strong>Zelle:</strong> 310-993-7727<br>
+                        <strong>PayPal:</strong> irinamonroe@gmail.com</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Сроки оплаты</h3>
+                        <p>Оплата производится<br><strong>за 24 часа</strong><br>до назначенной встречи</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Комиссии PayPal</h3>
+                        <p><strong>США:</strong> 2.99%<br>
+                        <strong>Канада/Европа:</strong><br>2.99% + 1.50% + $0.49</p>
+                        <p style="font-size: 12px; margin-top: 10px;">Отправляйте в USD</p>
+                    </div>
+                </div>
+                
+                <p style="text-align: center; margin-top: 30px; font-style: italic;">*Предоплата обязательна. Если вы решите, что вам нужна сессия больше часа, пожалуйста напишите об этом.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-form-container">
+                <h2>Запись на консультацию</h2>
+                <p class="contact-price">Первый шаг к внутренней гармонии</p>
+                
+                <div style="text-align: center; margin-bottom: 40px;">
+                    <p style="margin-bottom: 20px;">Выберите удобный способ связи:</p>
+                    <a href="mailto:info@irinamonroe.com" class="cta-button" style="display: inline-block; margin-bottom: 20px;">Написать на email</a>
+                    <p style="font-size: 14px; opacity: 0.7;">или заполните форму ниже</p>
+                </div>
+                
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                            <label for="name">Имя</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="age" name="age" placeholder="Возраст" required>
+                            <label for="age">Возраст</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="location" name="location" placeholder="Город / Страна" required>
+                            <label for="location">Город / Страна</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="time" name="time" placeholder="Удобное время" required>
+                            <label for="time">Удобное время</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <input type="email" id="email" name="email" placeholder="Электронный адрес" required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <textarea id="message" name="message" rows="6" placeholder="Расскажите, с чем вы хотели бы обратиться ко мне" required></textarea>
+                            <label for="message">Расскажите, с чем вы хотели бы обратиться ко мне</label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="form-submit">Отправить заявку</button>
+                </form>
+                
+                <div style="margin-top: 40px; text-align: center; opacity: 0.8;">
+                    <p style="font-size: 14px;">Также доступны мессенджеры:</p>
+                    <div style="margin-top: 15px; display: flex; gap: 20px; justify-content: center;">
+                        <a href="https://wa.me/13109937727" style="color: var(--accent-terra); text-decoration: none;">WhatsApp</a>
+                        <span style="color: var(--accent-brown);">•</span>
+                        <a href="skype:irinamonroe?chat" style="color: var(--accent-terra); text-decoration: none;">Skype</a>
+                        <span style="color: var(--accent-brown);">•</span>
+                        <a href="https://zoom.us" style="color: var(--accent-terra); text-decoration: none;">Zoom</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div class="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+</body>
+</html>

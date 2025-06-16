@@ -1,0 +1,9 @@
+# Robots.txt for staging/development
+# This file prevents search engines from indexing the site while in development
+# Update this file when ready to launch on the production domain
+
+User-agent: *
+Disallow: /
+
+# Sitemap location (uncomment when ready for production)
+# Sitemap: https://irinamonroe.com/sitemap.xml

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Поиск по сайту Ирины Монро">
+    <title>Поиск | Ирина Монро</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../mobile-fixes.css">
+    <style>
+        .search-page {
+            padding: 160px 0 100px;
+            min-height: 60vh;
+            background: var(--bg-lighter);
+        }
+        
+        .search-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+        
+        .search-title {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 42px;
+            color: var(--text-dark);
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .search-form {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 60px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+        }
+        
+        .search-input-wrapper {
+            flex: 1;
+            position: relative;
+        }
+        
+        .search-form input {
+            width: 100%;
+            padding: 15px 25px 15px 50px;
+            border: 2px solid var(--accent-brown);
+            border-radius: 100px;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            background: var(--white);
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            opacity: 0.5;
+        }
+        
+        .search-form input:focus {
+            outline: none;
+            border-color: var(--accent-terra);
+        }
+        
+        .search-form button {
+            padding: 15px 40px;
+            background: var(--accent-terra);
+            color: var(--white);
+            border: none;
+            border-radius: 100px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        .search-form button:hover {
+            background: var(--primary-color);
+            transform: translateY(-2px);
+        }
+        
+        /* Mobile specific styles */
+        @media (max-width: 968px) {
+            .search-page {
+                padding: 120px 0 60px;
+            }
+            
+            .search-container {
+                padding: 0 20px;
+            }
+            
+            .search-title {
+                font-size: 32px;
+                margin-bottom: 30px;
+            }
+            
+            .search-form {
+                flex-direction: column;
+                gap: 15px;
+                margin-bottom: 40px;
+            }
+            
+            .search-input-wrapper {
+                width: 100%;
+            }
+            
+            .search-form input {
+                font-size: 16px;
+                padding: 16px 20px 16px 50px;
+            }
+            
+            .search-form button {
+                width: 100%;
+                padding: 16px 30px;
+                font-size: 16px;
+            }
+            
+            .result-item {
+                padding: 20px;
+            }
+            
+            .result-title {
+                font-size: 20px;
+            }
+            
+            .no-results {
+                padding: 40px 20px;
+                font-size: 16px;
+            }
+        }
+        
+        .search-results {
+            margin-top: 60px;
+        }
+        
+        .search-results h2 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 28px;
+            color: var(--text-dark);
+            margin-bottom: 30px;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 60px 0;
+            color: var(--text-dark);
+            font-size: 18px;
+        }
+        
+        .result-item {
+            background: var(--white);
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .result-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .result-title {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 24px;
+            color: var(--text-dark);
+            margin-bottom: 10px;
+        }
+        
+        .result-excerpt {
+            color: var(--text-dark);
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .result-link {
+            color: var(--accent-terra);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .result-link:hover {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div class="header-placeholder"></div>
+
+    <!-- Search Page -->
+    <section class="search-page">
+        <div class="search-container">
+            <h1 class="search-title">Поиск по сайту</h1>
+            
+            <form class="search-form" action="/search" method="GET">
+                <div class="search-input-wrapper">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" name="q" placeholder="Введите запрос для поиска..." required>
+                </div>
+                <button type="submit">Искать</button>
+            </form>
+            
+            <div class="search-results">
+                <div class="no-results">
+                    <p>Введите запрос в поле поиска выше</p>
+                    <p>Вы можете искать по темам: терапия, гипноз, отношения, травма и др.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div class="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+    <script>
+        // Enhanced search functionality
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('q');
+        
+        // Site content for search
+        const siteContent = [
+            {
+                title: 'Онлайн консультации',
+                url: '/therapy-sessions/',
+                excerpt: 'Профессиональная психологическая помощь в удобном для вас формате. Консультации через Zoom или Skype.',
+                keywords: ['консультация', 'онлайн', 'терапия', 'сессия', 'zoom', 'skype']
+            },
+            {
+                title: 'Гипнотерапия',
+                url: '/resources/hypnotherapy/',
+                excerpt: 'Информация о гипнотерапии, методах работы и часто задаваемых вопросах.',
+                keywords: ['гипноз', 'гипнотерапия', 'транс', 'подсознание']
+            },
+            {
+                title: 'Психология и травма',
+                url: '/resources/psychology/',
+                excerpt: 'Статьи о психологических травмах, их влиянии и способах исцеления.',
+                keywords: ['психология', 'травма', 'исцеление', 'терапия']
+            },
+            {
+                title: 'Вопросы и ответы',
+                url: '/resources/questions/',
+                excerpt: 'Ответы на часто задаваемые вопросы о терапии, отношениях и личностном росте.',
+                keywords: ['вопросы', 'ответы', 'FAQ', 'помощь']
+            },
+            {
+                title: 'Блог',
+                url: '/blog/',
+                excerpt: 'Статьи и размышления о психологии, отношениях и саморазвитии.',
+                keywords: ['блог', 'статьи', 'психология', 'отношения', 'саморазвитие']
+            },
+            {
+                title: 'О себе',
+                url: '/#about',
+                excerpt: 'Ирина Монро — психолог и гипнотерапевт с 19+ летним опытом.',
+                keywords: ['ирина', 'монро', 'психолог', 'гипнотерапевт', 'опыт']
+            },
+            {
+                title: 'С чем я работаю',
+                url: '/#services',
+                excerpt: 'Взросление, отношения, кризисы, поиск смысла, внутренние переживания.',
+                keywords: ['услуги', 'темы', 'работа', 'взросление', 'отношения', 'кризис']
+            },
+            {
+                title: 'Терапевтический контракт',
+                url: '/therapeutic-contract/',
+                excerpt: 'Условия работы, формат встреч, оплата и правила взаимодействия.',
+                keywords: ['контракт', 'условия', 'правила', 'оплата', 'формат']
+            },
+            {
+                title: 'Эффективная совместная работа',
+                url: '/effective-collaboration/',
+                excerpt: 'Что поможет сделать нашу работу эффективной: открытость, доверие и готовность к изменениям.',
+                keywords: ['эффективность', 'сотрудничество', 'доверие', 'открытость', 'работа']
+            },
+            {
+                title: 'Контакты',
+                url: '/#contact',
+                excerpt: 'Запись на консультацию, контактная информация и способы связи.',
+                keywords: ['контакт', 'связь', 'запись', 'консультация', 'email', 'whatsapp']
+            },
+            {
+                title: 'Гипноз и его стадии',
+                url: '/resources/hypnotherapy/stadii-gipnoxa/',
+                excerpt: 'Информация о различных стадиях гипноза и их особенностях.',
+                keywords: ['гипноз', 'стадии', 'транс', 'глубина']
+            },
+            {
+                title: 'Самогипноз',
+                url: '/resources/hypnotherapy/samogipnoz/',
+                excerpt: 'Техники и методы самогипноза для личной практики.',
+                keywords: ['самогипноз', 'техники', 'практика', 'медитация']
+            },
+            {
+                title: 'Внутренний ребенок',
+                url: '/resources/psychology/vnytrenniy-rebenok/',
+                excerpt: 'Концепция внутреннего ребенка и его влияние на взрослую жизнь.',
+                keywords: ['внутренний', 'ребенок', 'детство', 'травма', 'исцеление']
+            },
+            {
+                title: 'Эмоциональные состояния',
+                url: '/resources/psychology/emotsionalnie-sostoyaniya/',
+                excerpt: 'Понимание различных эмоциональных состояний и работа с ними.',
+                keywords: ['эмоции', 'чувства', 'состояния', 'переживания']
+            },
+            {
+                title: 'Отношения с родителями',
+                url: '/resources/questions/family/',
+                excerpt: 'Вопросы и ответы о сложностях в отношениях с родителями и семьей.',
+                keywords: ['родители', 'семья', 'конфликты', 'понимание', 'принятие']
+            },
+            {
+                title: 'Депрессия и тревожность',
+                url: '/resources/questions/general/',
+                excerpt: 'Помощь при депрессивных состояниях и тревожных расстройствах.',
+                keywords: ['депрессия', 'тревога', 'тревожность', 'паника', 'страх']
+            }
+        ];
+        
+        function performSearch(searchQuery) {
+            if (!searchQuery || searchQuery.trim() === '') {
+                return [];
+            }
+            
+            const normalizedQuery = searchQuery.toLowerCase().trim();
+            const results = [];
+            
+            siteContent.forEach(page => {
+                let relevance = 0;
+                
+                // Check title
+                if (page.title.toLowerCase().includes(normalizedQuery)) {
+                    relevance += 3;
+                }
+                
+                // Check excerpt
+                if (page.excerpt.toLowerCase().includes(normalizedQuery)) {
+                    relevance += 2;
+                }
+                
+                // Check keywords
+                page.keywords.forEach(keyword => {
+                    if (keyword.includes(normalizedQuery) || normalizedQuery.includes(keyword)) {
+                        relevance += 1;
+                    }
+                });
+                
+                if (relevance > 0) {
+                    results.push({...page, relevance});
+                }
+            });
+            
+            // Sort by relevance
+            return results.sort((a, b) => b.relevance - a.relevance);
+        }
+        
+        function displayResults(results, query) {
+            const resultsContainer = document.querySelector('.search-results');
+            
+            if (results.length === 0) {
+                resultsContainer.innerHTML = `
+                    <div class="no-results">
+                        <p>По запросу "${query}" ничего не найдено.</p>
+                        <p>Попробуйте изменить запрос или воспользуйтесь навигацией сайта.</p>
+                    </div>
+                `;
+            } else {
+                let html = `<h2>Результаты поиска: ${results.length}</h2>`;
+                
+                results.forEach(result => {
+                    html += `
+                        <div class="result-item">
+                            <h3 class="result-title">${result.title}</h3>
+                            <p class="result-excerpt">${result.excerpt}</p>
+                            <a href="${result.url}" class="result-link">Перейти →</a>
+                        </div>
+                    `;
+                });
+                
+                resultsContainer.innerHTML = html;
+            }
+        }
+        
+        if (query) {
+            document.querySelector('input[name="q"]').value = query;
+            const results = performSearch(query);
+            displayResults(results, query);
+        }
+        
+        // Handle form submission
+        document.querySelector('.search-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const searchInput = this.querySelector('input[name="q"]');
+            const searchQuery = searchInput.value;
+            
+            if (searchQuery.trim()) {
+                const results = performSearch(searchQuery);
+                displayResults(results, searchQuery);
+                
+                // Update URL
+                const newUrl = window.location.pathname + '?q=' + encodeURIComponent(searchQuery);
+                window.history.pushState({}, '', newUrl);
+            }
+        });
+    </script>
+</body>
+</html>
