@@ -169,12 +169,6 @@
 }
 
 /* Category Pages Styles */
-.category-hero {
-    padding: 60px 0 40px;
-    background: var(--bg-light);
-    text-align: center;
-    margin-top: 124px;
-}
 
 .category-hero h1 {
     font-family: 'Cormorant Infant', serif;
@@ -372,5 +366,104 @@
     
     .search-box {
         padding: 0 20px;
+    }
+}
+
+/* Related Topics Section */
+.related-topics-section {
+    background: var(--bg-section);
+    padding: 80px 0;
+    margin-top: 80px;
+}
+
+.related-topics-section h2 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 36px;
+    color: var(--text-dark);
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.related-topics-section .topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.related-topics-section .topic-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 35px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.related-topics-section .topic-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--primary-color);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.related-topics-section .topic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.related-topics-section .topic-card:hover::before {
+    transform: scaleX(1);
+}
+
+.related-topics-section .topic-card h3 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 26px;
+    color: var(--text-dark);
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.related-topics-section .topic-card p {
+    font-size: 16px;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Mobile responsive for related topics */
+@media (max-width: 768px) {
+    .related-topics-section {
+        padding: 60px 0;
+    }
+    
+    .related-topics-section h2 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    
+    .related-topics-section .topics-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 20px;
+    }
+    
+    .related-topics-section .topic-card {
+        padding: 25px;
+    }
+    
+    .related-topics-section .topic-card h3 {
+        font-size: 24px;
     }
 }
