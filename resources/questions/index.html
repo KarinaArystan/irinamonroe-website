@@ -15,6 +15,181 @@
     <link rel="stylesheet" href="../../styles.css">
     <link rel="stylesheet" href="../../mobile-fixes.css">
     <link rel="stylesheet" href="../resources-styles.css">
+
+    <style>
+        /* Enhanced Questions Page Styles */
+        .topics-list {
+            margin-top: 40px;
+        }
+        
+        .topics-list h2 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 32px;
+            margin: 60px 0 30px;
+            color: var(--text-dark);
+            font-weight: 400;
+            text-align: center;
+            position: relative;
+            padding-bottom: 20px;
+        }
+        
+        .topics-list h2:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 2px;
+            background: var(--accent-terra);
+        }
+        
+        .topics-list h2:first-child {
+            margin-top: 40px;
+        }
+        
+        .topic-item {
+            display: block;
+            background: white;
+            border: 1px solid #E5E1DC;
+            border-radius: 8px;
+            padding: 30px 40px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .topic-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(147, 136, 74, 0.05), transparent);
+            transition: left 0.5s ease;
+        }
+        
+        .topic-item:hover::before {
+            left: 100%;
+        }
+        
+        .topic-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            border-color: var(--accent-terra);
+        }
+        
+        .topic-item h3 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 24px;
+            color: var(--text-dark);
+            margin-bottom: 10px;
+            font-weight: 400;
+            transition: color 0.3s ease;
+        }
+        
+        .topic-item:hover h3 {
+            color: var(--accent-terra);
+        }
+        
+        .topic-item p {
+            font-size: 16px;
+            color: var(--text-dark);
+            line-height: 1.6;
+            margin: 0;
+            opacity: 0.85;
+        }
+        
+        /* Category Pills Enhancement */
+        .qa-categories {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .category-pill {
+            padding: 10px 24px;
+            border: 1px solid var(--accent-brown);
+            border-radius: 100px;
+            text-decoration: none;
+            color: var(--accent-brown);
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            background: white;
+            cursor: pointer;
+        }
+        
+        .category-pill:hover,
+        .category-pill.active {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(147, 136, 74, 0.2);
+        }
+        
+        /* Intro Section */
+        .intro-section {
+            max-width: 800px;
+            margin: 0 auto 50px;
+            text-align: center;
+        }
+        
+        .intro-section p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+        
+        /* CTA Section Enhancement */
+        .cta-button {
+            background: var(--primary-color);
+            color: white;
+            padding: 14px 40px;
+            border-radius: 100px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .cta-button:hover {
+            background: var(--accent-terra);
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .topic-item {
+                padding: 25px 30px;
+            }
+            
+            .topic-item h3 {
+                font-size: 22px;
+            }
+            
+            .topics-list h2 {
+                font-size: 28px;
+            }
+            
+            .qa-categories {
+                gap: 10px;
+            }
+            
+            .category-pill {
+                padding: 8px 20px;
+                font-size: 13px;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Placeholder header - will be replaced with actual header component -->
@@ -54,6 +229,15 @@
                 </a>
             </div>
 
+
+            <!-- Introduction -->
+            <div class="intro-section">
+                <p>
+                    Каждый вопрос - это возможность для глубокого понимания и трансформации. 
+                    Здесь вы найдете ответы на реальные вопросы от людей, ищущих путь к исцелению.
+                </p>
+            </div>
+            
             <!-- Q&A List -->
             <div class="topics-list" id="qa-list">
                 <!-- Family Questions -->
@@ -172,7 +356,7 @@
             <p style="font-size: 18px; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto;">
                 Каждая ситуация уникальна. Я здесь, чтобы помочь вам найти ваш собственный путь к пониманию и исцелению.
             </p>
-            <a href="../../therapy-sessions/" style="background: var(--primary-color); color: white; padding: 14px 40px; border-radius: 100px; text-decoration: none; display: inline-block; font-size: 16px; transition: all 0.3s ease;">
+            <a href="../../#contact" class="cta-button">
                 Записаться на консультацию
             </a>
         </div>

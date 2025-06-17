@@ -6,7 +6,7 @@
     background: url('../images/title-bg.jpg') center center/cover;
     background-attachment: fixed;
     text-align: center;
-    margin-top: 124px; /* Account for header */
+    margin-top: 91px; /* Account for header (76px + 15px border) */
     position: relative;
 }
 
@@ -32,7 +32,7 @@
     background: url('../images/title-bg.jpg') center center/cover;
     background-attachment: fixed;
     text-align: center;
-    margin-top: 124px;
+    margin-top: 91px; /* Account for header (76px + 15px border) */
     position: relative;
 }
 

@@ -20,6 +20,154 @@
     <link rel="stylesheet" href="../../styles.css">
     <link rel="stylesheet" href="../../mobile-fixes.css">
     <link rel="stylesheet" href="../resources-styles.css">
+    
+    <style>
+        /* Psychology Page Styles - Matching Blog Card Aesthetics */
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .topic-card {
+            background: white;
+            border: 1px solid #E5E1DC;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: block;
+            height: 100%;
+        }
+        
+        .topic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-color: var(--accent-terra);
+        }
+        
+        .topic-content {
+            padding: 40px;
+        }
+        
+        .topic-card h2 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 28px;
+            font-weight: 400;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+            line-height: 1.2;
+            transition: color 0.3s ease;
+        }
+        
+        .topic-card:hover h2 {
+            color: var(--accent-terra);
+        }
+        
+        .topic-card p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+        }
+        
+        .topic-link {
+            color: var(--accent-terra);
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+        }
+        
+        .topic-link svg {
+            transition: transform 0.3s ease;
+        }
+        
+        .topic-card:hover .topic-link {
+            gap: 12px;
+        }
+        
+        .topic-card:hover .topic-link svg {
+            transform: translateX(4px);
+        }
+        
+        /* Intro Section */
+        .intro-section {
+            max-width: 800px;
+            margin: 0 auto 60px;
+            text-align: center;
+        }
+        
+        .intro-section p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: var(--bg-light);
+            padding: 80px 0;
+            margin-top: 80px;
+            text-align: center;
+        }
+        
+        .cta-section h2 {
+            font-family: 'Cormorant Infant', serif;
+            font-size: 36px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            color: var(--text-dark);
+        }
+        
+        .cta-section p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            color: var(--text-dark);
+        }
+        
+        .cta-button {
+            background: var(--primary-color);
+            color: white;
+            padding: 14px 40px;
+            border-radius: 100px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .cta-button:hover {
+            background: var(--accent-terra);
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .topics-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .topic-content {
+                padding: 30px;
+            }
+            
+            .topic-card h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Header Placeholder -->
@@ -40,9 +188,16 @@
         </div>
     </section>
 
-    <!-- Психология Articles Grid -->
+    
+    <!-- Introduction -->
     <section class="topics-section">
         <div class="container">
+            <div class="intro-section">
+                <p>
+                    Исследуйте глубинные аспекты человеческой психики, понимание травмы и путей исцеления. 
+                    Эти материалы помогут вам лучше понять себя и свои эмоциональные состояния.
+                </p>
+            </div>
             <div class="topics-grid">
                 <article class="topic-card">
                     <div class="topic-content">
@@ -148,6 +303,21 @@
                     </div>
                 </article>
             </div>
+        </div>
+    </section>
+
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Готовы к глубинной работе?</h2>
+            <p>
+                Понимание психологических механизмов - первый шаг. 
+                Давайте вместе исследуем ваш внутренний мир.
+            </p>
+            <a href="../../#contact" class="cta-button">
+                Записаться на консультацию
+            </a>
         </div>
     </section>
 
