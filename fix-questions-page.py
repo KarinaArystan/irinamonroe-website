@@ -1,4 +1,13 @@
-<!DOCTYPE html>
+#!/usr/bin/env python3
+"""
+Fix the questions page to use real existing question links
+"""
+
+import os
+
+def generate_questions_html():
+    """Generate the complete questions page with real links"""
+    return '''<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -217,4 +226,20 @@
         });
     </script>
 </body>
-</html>
+</html>'''
+
+def main():
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    questions_file = os.path.join(script_dir, 'resources', 'questions', 'index.html')
+    
+    print("Fixing questions page with real links...")
+    
+    # Write the new content
+    with open(questions_file, 'w', encoding='utf-8') as f:
+        f.write(generate_questions_html())
+    
+    print(f"✅ Fixed: {questions_file}")
+    print("\nThe questions page now contains real links to existing question pages.")
+
+if __name__ == "__main__":
+    main()
