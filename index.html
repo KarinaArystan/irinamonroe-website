@@ -34,7 +34,7 @@
             
             <!-- Navigation -->
             <ul class="nav-links">
-                <li><a href="#about">О себе</a></li>
+                <li><a href="/about/">О себе</a></li>
                 <li><a href="#services">С чем работаю</a></li>
                 <li class="has-dropdown">
                     <a href="#" class="dropdown-toggle">Ресурсы
@@ -96,13 +96,10 @@
                 <img src="images/hero-left-image.png" alt="Ирина Монро - Psychologist" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=800&h=1000&fit=crop';">
             </div>
             <div class="hero-text">
-                <h1>Индивидуальные консультации</h1>
+                <h1>Психолог, Гипнотерапевт</h1>
+                <h2 class="hero-subtitle">Индивидуальные консультации</h2>
                 
                 <p>Есть темы, о которых не принято говорить. Чувства, которые трудно назвать. Есть места внутри, которые долго оставались без внимания. Не потому что они неважны, а потому что к ним сложно приблизиться без опоры.</p>
-                
-                <div class="hero-tags">
-                    <span class="tag">Психология, гипнотерапия</span>
-                </div>
                 
                 <div class="hero-founding">
                     <span class="founding-year">Год основания 2008</span>
@@ -146,6 +143,10 @@
                     <div class="achievement-number">2008</div>
                     <div class="achievement-text">год основания практики</div>
                 </div>
+            </div>
+            
+            <div class="learn-more-wrapper">
+                <a href="about/" class="learn-more-link">Узнать больше обо мне</a>
             </div>
         </div>
     </section>
@@ -332,24 +333,5 @@
 
     <!-- External JavaScript -->
     <script src="script.js"></script>
-    
-    <!-- Inline initialization for homepage mobile menu -->
-    <script>
-        // Ensure mobile menu works on homepage
-        document.addEventListener('DOMContentLoaded', function() {
-            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-            const navLinks = document.querySelector('.nav-links');
-            
-            if (mobileMenuToggle && !mobileMenuToggle.hasAttribute('data-inline-init')) {
-                mobileMenuToggle.setAttribute('data-inline-init', 'true');
-                
-                mobileMenuToggle.addEventListener('click', function() {
-                    navLinks.classList.toggle('active');
-                    this.classList.toggle('active');
-                    document.body.classList.toggle('menu-open');
-                });
-            }
-        });
-    </script>
 </body>
 </html>

@@ -1,0 +1,244 @@
+/* Psychology Articles - Consolidated Styles */
+/* This file contains unified styles for all psychology articles to fix alignment issues */
+
+/* Article Container */
+.psychology-article,
+.article-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* Article Header */
+.psychology-header,
+.article-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.psychology-header h1,
+.article-header h1 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 48px;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/* Meta Information */
+.psychology-meta,
+.article-meta {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 40px;
+}
+
+/* Article Content */
+.psychology-content,
+.article-body {
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--text-dark);
+}
+
+.psychology-content p,
+.article-body p {
+    margin-bottom: 28px;
+    text-align: left;
+}
+
+/* Headings */
+.psychology-content h2,
+.article-body h2 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 32px;
+    color: var(--text-dark);
+    margin: 48px 0 24px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.psychology-content h3,
+.article-body h3 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 26px;
+    color: var(--text-dark);
+    margin: 36px 0 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/* Lists */
+.psychology-content ul,
+.psychology-content ol,
+.article-body ul,
+.article-body ol {
+    margin: 24px 0 32px;
+    padding-left: 32px;
+    text-align: left;
+}
+
+.psychology-content li,
+.article-body li {
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+/* Blockquotes */
+.psychology-content blockquote,
+.article-body blockquote {
+    border-left: 4px solid var(--primary-color);
+    padding-left: 24px;
+    margin: 32px 0;
+    font-style: italic;
+    color: var(--text-muted);
+    text-align: left;
+}
+
+/* Related Articles Section */
+.related-articles {
+    margin-top: 80px;
+    padding-top: 60px;
+    border-top: 1px solid var(--border-color);
+}
+
+.related-articles h2 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 36px;
+    color: var(--text-dark);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.related-card {
+    background: var(--bg-lighter);
+    padding: 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+.related-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.related-card h3 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 24px;
+    color: var(--text-dark);
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+
+.related-card p {
+    font-size: 15px;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+/* CTA Section */
+.article-cta,
+.content-section {
+    background: var(--bg-light);
+    padding: 80px 0;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.article-cta h2,
+.content-section h2 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: var(--text-dark);
+}
+
+.article-cta p,
+.content-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--text-dark);
+}
+
+/* Remove duplicate article hero styles */
+.article-hero {
+    display: none;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .psychology-article,
+    .article-content {
+        padding: 0 20px;
+    }
+    
+    .psychology-header h1,
+    .article-header h1 {
+        font-size: 36px;
+    }
+    
+    .psychology-content,
+    .article-body {
+        font-size: 17px;
+    }
+    
+    .psychology-content h2,
+    .article-body h2 {
+        font-size: 28px;
+    }
+    
+    .psychology-content h3,
+    .article-body h3 {
+        font-size: 24px;
+    }
+    
+    .related-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .article-cta h2,
+    .content-section h2 {
+        font-size: 32px;
+    }
+}
+
+/* Fix for any centered text that should be left-aligned */
+.psychology-content *:not(h1),
+.article-body *:not(h1) {
+    text-align: left;
+}
+
+/* Ensure proper spacing between sections */
+.topics-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Category badge alignment */
+.category-badge,
+.article-category {
+    text-align: center;
+    margin: 0 auto 20px;
+    display: inline-block;
+}
+
+/* Back to category link */
+.back-to-category {
+    text-align: left;
+    margin-bottom: 30px;
+}
